@@ -1,0 +1,373 @@
+
+Lmod is automatically replacing "intel/2020.1.217" with "gcc/9.3.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) mii/1.1.2
+
+The following have been reloaded with a version change:
+  1) StdEnv/2023 => StdEnv/2020
+  2) blis/0.9.0 => blis/0.8.1
+  3) flexiblas/3.3.1 => flexiblas/3.0.4
+  4) gcc/12.3 => gcc/9.3.0
+  5) gcccore/.12.3 => gcccore/.9.3.0
+  6) gentoo/2023 => gentoo/2020
+  7) libfabric/1.18.0 => libfabric/1.10.1
+  8) openmpi/4.1.5 => openmpi/4.0.3
+  9) ucx/1.14.1 => ucx/1.8.0
+
+Sat Mar  8 04:15:53 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.144.03             Driver Version: 550.144.03     CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A100-SXM4-40GB          Off |   00000000:81:00.0 Off |                    0 |
+| N/A   30C    P0             58W /  400W |       1MiB /  40960MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+   Compiling autocfg v1.1.0
+   Compiling proc-macro2 v1.0.66
+   Compiling unicode-ident v1.0.11
+   Compiling quote v1.0.32
+   Compiling thiserror v1.0.44
+   Compiling syn v2.0.28
+   Compiling thiserror-impl v1.0.44
+   Compiling cfg-if v1.0.0
+   Compiling libm v0.2.7
+   Compiling num-traits v0.2.16
+   Compiling ucd-trie v0.1.6
+   Compiling pest v2.7.2
+   Compiling libc v0.2.147
+   Compiling num-integer v0.1.45
+   Compiling serde v1.0.183
+   Compiling num-bigint v0.4.3
+   Compiling crossbeam-utils v0.8.16
+   Compiling memoffset v0.9.0
+   Compiling serde_derive v1.0.183
+   Compiling num-complex v0.4.3
+   Compiling semver-parser v0.10.2
+   Compiling crossbeam-epoch v0.9.15
+   Compiling once_cell v1.18.0
+   Compiling crc32fast v1.3.2
+   Compiling serde_json v1.0.104
+   Compiling pest_meta v2.7.2
+   Compiling semver v0.11.0
+   Compiling num-rational v0.4.1
+   Compiling num-iter v0.1.43
+   Compiling matrixmultiply v0.3.7
+   Compiling scopeguard v1.2.0
+   Compiling adler v1.0.2
+   Compiling ryu v1.0.15
+   Compiling itoa v1.0.9
+   Compiling miniz_oxide v0.7.1
+   Compiling rustc_version v0.3.3
+   Compiling pest_generator v2.7.2
+   Compiling getrandom v0.2.10
+   Compiling rawpointer v0.2.1
+   Compiling rayon-core v1.11.0
+   Compiling rand_core v0.6.4
+   Compiling flate2 v1.0.26
+   Compiling pest_derive v2.7.2
+   Compiling arrayfire_fork v3.8.1
+   Compiling crossbeam-deque v0.8.3
+   Compiling crossbeam-channel v0.5.8
+   Compiling num_cpus v1.16.0
+   Compiling ppv-lite86 v0.2.17
+   Compiling byteorder v1.4.3
+   Compiling zip v0.5.13
+   Compiling rand_chacha v0.3.1
+   Compiling num v0.4.1
+   Compiling py_literal v0.4.0
+   Compiling ndarray v0.15.6
+   Compiling half v2.3.1
+   Compiling lazy_static v1.4.0
+   Compiling either v1.9.0
+   Compiling match_cfg v0.1.0
+   Compiling hostname v0.3.1
+   Compiling rayon v1.7.0
+   Compiling ndarray-npy v0.8.1
+   Compiling rand v0.8.5
+   Compiling nohash-hasher v0.2.0
+   Compiling raybnn v0.1.5 (/lustre07/scratch/yilind/raybnn)
+    Finished release [optimized] target(s) in 2m 20s
+     Running `target/release/examples/figure4_raybnn_sp`
+Creating Network 20 db
+Load Dataset
+Iteration 0, new_neuron_num: 162
+Epoch 0: Test RMSE = 0.0066234563, Time elapsed = 1.6352148s
+Epoch 50: Test RMSE = 0.000668843, Time elapsed = 9.406645s
+Epoch 100: Test RMSE = 0.00011627843, Time elapsed = 15.912815s
+Epoch 150: Test RMSE = 0.00006393304, Time elapsed = 16.013374s
+Epoch 200: Test RMSE = 0.00006516331, Time elapsed = 16.1147s
+Epoch 250: Test RMSE = 0.000118663986, Time elapsed = 16.213036s
+Epoch 300: Test RMSE = 0.00016563242, Time elapsed = 16.309578s
+Epoch 350: Test RMSE = 0.00006013758, Time elapsed = 16.406471s
+Epoch 400: Test RMSE = 0.00018308182, Time elapsed = 16.504017s
+Epoch 450: Test RMSE = 0.00021294529, Time elapsed = 16.601875s
+Epoch 500: Test RMSE = 0.00013085495, Time elapsed = 16.699223s
+Epoch 550: Test RMSE = 0.00023108914, Time elapsed = 16.795065s
+Epoch 600: Test RMSE = 0.00010057629, Time elapsed = 16.892277s
+Epoch 650: Test RMSE = 0.000089263216, Time elapsed = 16.989973s
+Epoch 700: Test RMSE = 0.000072931995, Time elapsed = 17.088173s
+Epoch 750: Test RMSE = 0.00017330784, Time elapsed = 17.185627s
+Epoch 800: Test RMSE = 0.00010785693, Time elapsed = 17.282215s
+Epoch 850: Test RMSE = 0.00006993297, Time elapsed = 17.380306s
+Epoch 900: Test RMSE = 0.00010044663, Time elapsed = 17.478477s
+Epoch 950: Test RMSE = 0.00008400359, Time elapsed = 17.576359s
+loss_val 0.00007188001
+elapsed 17.671385
+Creating Network 20 db
+Load Dataset
+Iteration 0, new_neuron_num: 130
+Epoch 0: Test RMSE = 0.005224379, Time elapsed = 0.003407801s
+Epoch 50: Test RMSE = 0.0007818178, Time elapsed = 0.0996098s
+Epoch 100: Test RMSE = 0.00029645464, Time elapsed = 0.19568178s
+Epoch 150: Test RMSE = 0.0007936847, Time elapsed = 0.29211417s
+Epoch 200: Test RMSE = 0.0008497925, Time elapsed = 0.38710937s
+Epoch 250: Test RMSE = 0.0007492082, Time elapsed = 0.48390836s
+Epoch 300: Test RMSE = 0.00006169229, Time elapsed = 0.5807805s
+Epoch 350: Test RMSE = 0.000028086231, Time elapsed = 0.67819476s
+Epoch 400: Test RMSE = 0.00002474575, Time elapsed = 0.7746893s
+Epoch 450: Test RMSE = 0.000023502831, Time elapsed = 0.87095445s
+Epoch 500: Test RMSE = 0.000018536522, Time elapsed = 0.96765673s
+Epoch 550: Test RMSE = 0.000017669901, Time elapsed = 1.0645026s
+Epoch 600: Test RMSE = 0.000017458842, Time elapsed = 1.1589258s
+Epoch 650: Test RMSE = 0.000016012462, Time elapsed = 1.2556871s
+Epoch 700: Test RMSE = 0.000013048527, Time elapsed = 1.3522332s
+Epoch 750: Test RMSE = 0.000012898649, Time elapsed = 1.4474264s
+Epoch 800: Test RMSE = 0.000012394911, Time elapsed = 1.544074s
+Epoch 850: Test RMSE = 0.000012910445, Time elapsed = 1.6409897s
+Epoch 900: Test RMSE = 0.000012611862, Time elapsed = 1.7376945s
+Epoch 950: Test RMSE = 0.000011900835, Time elapsed = 1.8329768s
+loss_val 0.000012074227
+elapsed 1.9269903
+Creating Network 20 db
+Load Dataset
+Iteration 0, new_neuron_num: 115
+Epoch 0: Test RMSE = 0.009528757, Time elapsed = 0.003693271s
+Epoch 50: Test RMSE = 0.00035242154, Time elapsed = 0.10017053s
+Epoch 100: Test RMSE = 0.00014206975, Time elapsed = 0.19624743s
+Epoch 150: Test RMSE = 0.00012537108, Time elapsed = 0.2946578s
+Epoch 200: Test RMSE = 0.0001211803, Time elapsed = 0.3910916s
+Epoch 250: Test RMSE = 0.00043535684, Time elapsed = 0.4874029s
+Epoch 300: Test RMSE = 0.00025667384, Time elapsed = 0.583277s
+Epoch 350: Test RMSE = 0.00012732758, Time elapsed = 0.6797271s
+Epoch 400: Test RMSE = 0.00086266466, Time elapsed = 0.77617043s
+Epoch 450: Test RMSE = 0.0006124879, Time elapsed = 0.87226874s
+Epoch 500: Test RMSE = 0.00017442928, Time elapsed = 0.96741766s
+Epoch 550: Test RMSE = 0.000033798064, Time elapsed = 1.0632424s
+Epoch 600: Test RMSE = 0.00001954829, Time elapsed = 1.1599245s
+Epoch 650: Test RMSE = 0.000020631887, Time elapsed = 1.256475s
+Epoch 700: Test RMSE = 0.00001805236, Time elapsed = 1.3529932s
+Epoch 750: Test RMSE = 0.00001568431, Time elapsed = 1.4492433s
+Epoch 800: Test RMSE = 0.000016145927, Time elapsed = 1.5454931s
+Epoch 850: Test RMSE = 0.00001146184, Time elapsed = 1.6416028s
+Epoch 900: Test RMSE = 0.000016117985, Time elapsed = 1.7379084s
+Epoch 950: Test RMSE = 0.000010937514, Time elapsed = 1.8342602s
+loss_val 0.000010486108
+elapsed 1.9285442
+Creating Network 20 db
+Load Dataset
+Iteration 0, new_neuron_num: 185
+Epoch 0: Test RMSE = 0.00040108955, Time elapsed = 0.003298453s
+Epoch 50: Test RMSE = 0.00037445338, Time elapsed = 0.098667905s
+Epoch 100: Test RMSE = 0.000070241294, Time elapsed = 0.19480018s
+Epoch 150: Test RMSE = 0.00007678504, Time elapsed = 0.29087028s
+Epoch 200: Test RMSE = 0.000046966758, Time elapsed = 0.38632938s
+Epoch 250: Test RMSE = 0.00006579496, Time elapsed = 0.48230878s
+Epoch 300: Test RMSE = 0.000041679155, Time elapsed = 0.5780974s
+Epoch 350: Test RMSE = 0.00003901838, Time elapsed = 0.6739949s
+Epoch 400: Test RMSE = 0.00004886455, Time elapsed = 0.7700527s
+Epoch 450: Test RMSE = 0.000033981803, Time elapsed = 0.8682027s
+Epoch 500: Test RMSE = 0.00003778518, Time elapsed = 0.96452475s
+Epoch 550: Test RMSE = 0.000025686319, Time elapsed = 1.0609169s
+Epoch 600: Test RMSE = 0.000026114256, Time elapsed = 1.1568594s
+Epoch 650: Test RMSE = 0.000030870942, Time elapsed = 1.2525511s
+Epoch 700: Test RMSE = 0.000023165152, Time elapsed = 1.348712s
+Epoch 750: Test RMSE = 0.00003136921, Time elapsed = 1.4445447s
+Epoch 800: Test RMSE = 0.000020305553, Time elapsed = 1.5404698s
+Epoch 850: Test RMSE = 0.000030994583, Time elapsed = 1.6361672s
+Epoch 900: Test RMSE = 0.00001734019, Time elapsed = 1.7324741s
+Epoch 950: Test RMSE = 0.000017710236, Time elapsed = 1.8289387s
+loss_val 0.000017187298
+elapsed 1.9232563
+Creating Network 20 db
+Load Dataset
+Iteration 0, new_neuron_num: 418
+Epoch 0: Test RMSE = 0.0005054639, Time elapsed = 0.003284307s
+Epoch 50: Test RMSE = 0.00031367343, Time elapsed = 0.100200206s
+Epoch 100: Test RMSE = 0.00010532581, Time elapsed = 0.1961437s
+Epoch 150: Test RMSE = 0.000042049647, Time elapsed = 0.2924847s
+Epoch 200: Test RMSE = 0.000035606274, Time elapsed = 0.38891974s
+Epoch 250: Test RMSE = 0.000038751947, Time elapsed = 0.48522004s
+Epoch 300: Test RMSE = 0.000033678203, Time elapsed = 0.58149344s
+Epoch 350: Test RMSE = 0.00001828084, Time elapsed = 0.67735815s
+Epoch 400: Test RMSE = 0.00002689903, Time elapsed = 0.773452s
+Epoch 450: Test RMSE = 0.000019028948, Time elapsed = 0.8695716s
+Epoch 500: Test RMSE = 0.00002207721, Time elapsed = 0.96537143s
+Epoch 550: Test RMSE = 0.000018452556, Time elapsed = 1.0610168s
+Epoch 600: Test RMSE = 0.000025980038, Time elapsed = 1.1572974s
+Epoch 650: Test RMSE = 0.000017116847, Time elapsed = 1.2532303s
+Epoch 700: Test RMSE = 0.000016473668, Time elapsed = 1.349637s
+Epoch 750: Test RMSE = 0.000018964467, Time elapsed = 1.4454643s
+Epoch 800: Test RMSE = 0.000013382819, Time elapsed = 1.5443257s
+Epoch 850: Test RMSE = 0.000015111304, Time elapsed = 1.639074s
+Epoch 900: Test RMSE = 0.000016574046, Time elapsed = 1.7354078s
+Epoch 950: Test RMSE = 0.0000188141, Time elapsed = 1.8312778s
+loss_val 0.000014280229
+elapsed 1.9253967
+Creating Network 20 db
+Load Dataset
+Iteration 0, new_neuron_num: 100
+Epoch 0: Test RMSE = 0.0023259623, Time elapsed = 0.021534668s
+Epoch 50: Test RMSE = 0.00028057594, Time elapsed = 0.11824789s
+Epoch 100: Test RMSE = 0.000085754946, Time elapsed = 0.21564485s
+Epoch 150: Test RMSE = 0.000038415277, Time elapsed = 0.31183076s
+Epoch 200: Test RMSE = 0.000037708367, Time elapsed = 0.40812114s
+Epoch 250: Test RMSE = 0.000037566544, Time elapsed = 0.5040684s
+Epoch 300: Test RMSE = 0.00002557035, Time elapsed = 0.5998355s
+Epoch 350: Test RMSE = 0.000025379395, Time elapsed = 0.69638216s
+Epoch 400: Test RMSE = 0.000020316516, Time elapsed = 0.7923795s
+Epoch 450: Test RMSE = 0.000019345987, Time elapsed = 0.88858664s
+Epoch 500: Test RMSE = 0.00002599747, Time elapsed = 0.98449785s
+Epoch 550: Test RMSE = 0.000018199251, Time elapsed = 1.0811276s
+Epoch 600: Test RMSE = 0.00001883479, Time elapsed = 1.1772965s
+Epoch 650: Test RMSE = 0.000018720979, Time elapsed = 1.2733486s
+loss_val 0.000018720979
+elapsed 1.273418
+Creating Network 20 db
+Load Dataset
+Iteration 0, new_neuron_num: 168
+Epoch 0: Test RMSE = 0.00028114812, Time elapsed = 0.003342728s
+Epoch 50: Test RMSE = 0.0002576419, Time elapsed = 0.099932s
+Epoch 100: Test RMSE = 0.00006385, Time elapsed = 0.19633017s
+Epoch 150: Test RMSE = 0.000041432406, Time elapsed = 0.2921142s
+Epoch 200: Test RMSE = 0.000032323864, Time elapsed = 0.38776395s
+Epoch 250: Test RMSE = 0.00003438177, Time elapsed = 0.48407906s
+Epoch 300: Test RMSE = 0.000028784898, Time elapsed = 0.58057266s
+Epoch 350: Test RMSE = 0.000025233208, Time elapsed = 0.67691034s
+Epoch 400: Test RMSE = 0.000024944797, Time elapsed = 0.77259713s
+Epoch 450: Test RMSE = 0.0000239223, Time elapsed = 0.86904514s
+Epoch 500: Test RMSE = 0.000017411618, Time elapsed = 0.9652783s
+Epoch 550: Test RMSE = 0.000021852913, Time elapsed = 1.061437s
+Epoch 600: Test RMSE = 0.000017467702, Time elapsed = 1.1574438s
+Epoch 650: Test RMSE = 0.000017708402, Time elapsed = 1.2532007s
+Epoch 700: Test RMSE = 0.000020318304, Time elapsed = 1.3491259s
+Epoch 750: Test RMSE = 0.000017473616, Time elapsed = 1.4455023s
+Epoch 800: Test RMSE = 0.000014037003, Time elapsed = 1.5416234s
+Epoch 850: Test RMSE = 0.000011504406, Time elapsed = 1.6372838s
+Epoch 900: Test RMSE = 0.000023116598, Time elapsed = 1.7333443s
+Epoch 950: Test RMSE = 0.000017473929, Time elapsed = 1.8295023s
+loss_val 0.000016189022
+elapsed 1.9236836
+Creating Network 20 db
+Load Dataset
+Iteration 0, new_neuron_num: 395
+Epoch 0: Test RMSE = 0.0069855866, Time elapsed = 0.003474657s
+Epoch 50: Test RMSE = 0.00042628674, Time elapsed = 0.10120071s
+Epoch 100: Test RMSE = 0.00012648448, Time elapsed = 0.19634s
+Epoch 150: Test RMSE = 0.0000755686, Time elapsed = 0.29329795s
+Epoch 200: Test RMSE = 0.00003852481, Time elapsed = 0.39068076s
+Epoch 250: Test RMSE = 0.000034039258, Time elapsed = 0.4879295s
+Epoch 300: Test RMSE = 0.000028791903, Time elapsed = 0.5844486s
+Epoch 350: Test RMSE = 0.000024811563, Time elapsed = 0.68038785s
+Epoch 400: Test RMSE = 0.000028319415, Time elapsed = 0.7762552s
+Epoch 450: Test RMSE = 0.00003107824, Time elapsed = 0.87199795s
+Epoch 500: Test RMSE = 0.000023935669, Time elapsed = 0.967778s
+Epoch 550: Test RMSE = 0.000018477482, Time elapsed = 1.063688s
+Epoch 600: Test RMSE = 0.000017582768, Time elapsed = 1.1611154s
+Epoch 650: Test RMSE = 0.000029080322, Time elapsed = 1.2583566s
+Epoch 700: Test RMSE = 0.000026722326, Time elapsed = 1.355727s
+Epoch 750: Test RMSE = 0.000018210647, Time elapsed = 1.4630318s
+Epoch 800: Test RMSE = 0.00002842654, Time elapsed = 1.5596154s
+Epoch 850: Test RMSE = 0.000026814476, Time elapsed = 1.6569519s
+Epoch 900: Test RMSE = 0.000024650722, Time elapsed = 1.7544705s
+Epoch 950: Test RMSE = 0.000031320746, Time elapsed = 1.8508451s
+loss_val 0.00003140152
+elapsed 1.9460769
+Creating Network 20 db
+Load Dataset
+Iteration 0, new_neuron_num: 100
+Epoch 0: Test RMSE = 0.005847131, Time elapsed = 0.00413244s
+Epoch 50: Test RMSE = 0.0004343345, Time elapsed = 0.10150058s
+Epoch 100: Test RMSE = 0.00006423167, Time elapsed = 0.19818014s
+Epoch 150: Test RMSE = 0.000032456628, Time elapsed = 0.295128s
+Epoch 200: Test RMSE = 0.00009323408, Time elapsed = 0.3920356s
+Epoch 250: Test RMSE = 0.00004975815, Time elapsed = 0.48817402s
+Epoch 300: Test RMSE = 0.00004010937, Time elapsed = 0.584174s
+Epoch 350: Test RMSE = 0.00009168421, Time elapsed = 0.68097234s
+Epoch 400: Test RMSE = 0.00004950841, Time elapsed = 0.77742803s
+Epoch 450: Test RMSE = 0.00009046243, Time elapsed = 0.8734251s
+Epoch 500: Test RMSE = 0.00030514298, Time elapsed = 0.96837497s
+Epoch 550: Test RMSE = 0.0012740206, Time elapsed = 1.0646789s
+Epoch 600: Test RMSE = 0.00048351404, Time elapsed = 1.161495s
+Epoch 650: Test RMSE = 0.000040039264, Time elapsed = 1.2578547s
+Epoch 700: Test RMSE = 0.000016922115, Time elapsed = 1.3530737s
+Epoch 750: Test RMSE = 0.000017416982, Time elapsed = 1.4500352s
+Epoch 800: Test RMSE = 0.000012276578, Time elapsed = 1.54724s
+Epoch 850: Test RMSE = 0.000009279879, Time elapsed = 1.6438212s
+Epoch 900: Test RMSE = 0.000010556462, Time elapsed = 1.7383909s
+Epoch 950: Test RMSE = 0.000010989291, Time elapsed = 1.8343995s
+loss_val 0.000013261947
+elapsed 1.9285364
+Creating Network 20 db
+Load Dataset
+Iteration 0, new_neuron_num: 102
+Epoch 0: Test RMSE = 0.00014162278, Time elapsed = 0.003302952s
+Epoch 50: Test RMSE = 0.0003406629, Time elapsed = 0.10067126s
+Epoch 100: Test RMSE = 0.00003285883, Time elapsed = 0.19719294s
+Epoch 150: Test RMSE = 0.000059751146, Time elapsed = 0.29414147s
+Epoch 200: Test RMSE = 0.000028811333, Time elapsed = 0.38961217s
+Epoch 250: Test RMSE = 0.000019552483, Time elapsed = 0.48665574s
+Epoch 300: Test RMSE = 0.000026922384, Time elapsed = 0.58434916s
+Epoch 350: Test RMSE = 0.000024469744, Time elapsed = 0.6818918s
+Epoch 400: Test RMSE = 0.000013996551, Time elapsed = 0.7785177s
+Epoch 450: Test RMSE = 0.000020884921, Time elapsed = 0.87565076s
+Epoch 500: Test RMSE = 0.000019296922, Time elapsed = 0.9733459s
+Epoch 550: Test RMSE = 0.000025272035, Time elapsed = 1.0711569s
+Epoch 600: Test RMSE = 0.000019293191, Time elapsed = 1.1684642s
+Epoch 650: Test RMSE = 0.000024314419, Time elapsed = 1.2654457s
+Epoch 700: Test RMSE = 0.0000098460505, Time elapsed = 1.361258s
+Epoch 750: Test RMSE = 0.000010328238, Time elapsed = 1.4582673s
+Epoch 800: Test RMSE = 0.000017521086, Time elapsed = 1.5553821s
+Epoch 850: Test RMSE = 0.000014543054, Time elapsed = 1.651722s
+Epoch 900: Test RMSE = 0.000011252881, Time elapsed = 1.7490232s
+Epoch 950: Test RMSE = 0.00000959817, Time elapsed = 1.8459775s
+loss_val 0.0000075869525
+elapsed 1.9409333
+Creating Network 20 db
+Load Dataset
+Iteration 0, new_neuron_num: 101
+Epoch 0: Test RMSE = 0.00014898699, Time elapsed = 0.004261995s
+Epoch 50: Test RMSE = 0.00027400485, Time elapsed = 0.101403505s
+Epoch 100: Test RMSE = 0.000054822212, Time elapsed = 0.19744988s
+Epoch 150: Test RMSE = 0.000048222122, Time elapsed = 0.2946035s
+Epoch 200: Test RMSE = 0.000041098625, Time elapsed = 0.39166895s
+Epoch 250: Test RMSE = 0.000034419085, Time elapsed = 0.48843697s
+Epoch 300: Test RMSE = 0.000029046334, Time elapsed = 0.58428025s
+Epoch 350: Test RMSE = 0.000024755327, Time elapsed = 0.6814598s
+Epoch 400: Test RMSE = 0.000028510567, Time elapsed = 0.77821356s
+Epoch 450: Test RMSE = 0.000023019948, Time elapsed = 0.875375s
+Epoch 500: Test RMSE = 0.000019442477, Time elapsed = 0.9717707s
+Epoch 550: Test RMSE = 0.000018793335, Time elapsed = 1.0682395s
+Epoch 600: Test RMSE = 0.000027624119, Time elapsed = 1.1670486s
+Epoch 650: Test RMSE = 0.00001447802, Time elapsed = 1.2645624s
+Epoch 700: Test RMSE = 0.0000106157995, Time elapsed = 1.3616393s
+Epoch 750: Test RMSE = 0.000012026277, Time elapsed = 1.4577291s
+Epoch 800: Test RMSE = 0.00001426176, Time elapsed = 1.5550393s
+Epoch 850: Test RMSE = 0.0000116762885, Time elapsed = 1.6523671s
+Epoch 900: Test RMSE = 0.000011311963, Time elapsed = 1.7482142s
+Epoch 950: Test RMSE = 0.000011094948, Time elapsed = 1.8441653s
+loss_val 0.000017503728
+elapsed 1.9380387

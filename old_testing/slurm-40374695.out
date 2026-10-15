@@ -1,0 +1,775 @@
+
+Lmod is automatically replacing "intel/2020.1.217" with "gcc/9.3.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) mii/1.1.2
+
+The following have been reloaded with a version change:
+  1) StdEnv/2023 => StdEnv/2020
+  2) blis/0.9.0 => blis/0.8.1
+  3) flexiblas/3.3.1 => flexiblas/3.0.4
+  4) gcc/12.3 => gcc/9.3.0
+  5) gcccore/.12.3 => gcccore/.9.3.0
+  6) gentoo/2023 => gentoo/2020
+  7) libfabric/1.18.0 => libfabric/1.10.1
+  8) openmpi/4.1.5 => openmpi/4.0.3
+  9) ucx/1.14.1 => ucx/1.8.0
+
+Tue Feb 18 03:01:03 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.144.03             Driver Version: 550.144.03     CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A100-SXM4-40GB          Off |   00000000:C1:00.0 Off |                    0 |
+| N/A   29C    P0             55W /  400W |       1MiB /  40960MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+   Compiling autocfg v1.1.0
+   Compiling proc-macro2 v1.0.66
+   Compiling unicode-ident v1.0.11
+   Compiling quote v1.0.32
+   Compiling thiserror v1.0.44
+   Compiling syn v2.0.28
+   Compiling thiserror-impl v1.0.44
+   Compiling cfg-if v1.0.0
+   Compiling libm v0.2.7
+   Compiling num-traits v0.2.16
+   Compiling ucd-trie v0.1.6
+   Compiling pest v2.7.2
+   Compiling libc v0.2.147
+   Compiling num-integer v0.1.45
+   Compiling serde v1.0.183
+   Compiling num-bigint v0.4.3
+   Compiling crossbeam-utils v0.8.16
+   Compiling memoffset v0.9.0
+   Compiling serde_derive v1.0.183
+   Compiling num-complex v0.4.3
+   Compiling semver-parser v0.10.2
+   Compiling crossbeam-epoch v0.9.15
+   Compiling once_cell v1.18.0
+   Compiling crc32fast v1.3.2
+   Compiling serde_json v1.0.104
+   Compiling pest_meta v2.7.2
+   Compiling semver v0.11.0
+   Compiling num-rational v0.4.1
+   Compiling matrixmultiply v0.3.7
+   Compiling num-iter v0.1.43
+   Compiling adler v1.0.2
+   Compiling itoa v1.0.9
+   Compiling scopeguard v1.2.0
+   Compiling ryu v1.0.15
+   Compiling miniz_oxide v0.7.1
+   Compiling rustc_version v0.3.3
+   Compiling pest_generator v2.7.2
+   Compiling getrandom v0.2.10
+   Compiling rawpointer v0.2.1
+   Compiling rayon-core v1.11.0
+   Compiling rand_core v0.6.4
+   Compiling flate2 v1.0.26
+   Compiling pest_derive v2.7.2
+   Compiling arrayfire_fork v3.8.1
+   Compiling crossbeam-deque v0.8.3
+   Compiling crossbeam-channel v0.5.8
+   Compiling num_cpus v1.16.0
+   Compiling ppv-lite86 v0.2.17
+   Compiling byteorder v1.4.3
+   Compiling zip v0.5.13
+   Compiling rand_chacha v0.3.1
+   Compiling num v0.4.1
+   Compiling py_literal v0.4.0
+   Compiling ndarray v0.15.6
+   Compiling half v2.3.1
+   Compiling lazy_static v1.4.0
+   Compiling match_cfg v0.1.0
+   Compiling either v1.9.0
+   Compiling rayon v1.7.0
+   Compiling hostname v0.3.1
+   Compiling ndarray-npy v0.8.1
+   Compiling rand v0.8.5
+   Compiling nohash-hasher v0.2.0
+   Compiling raybnn v0.1.5 (/lustre07/scratch/yilind/raybnn)
+    Finished release [optimized] target(s) in 5m 09s
+     Running `target/release/examples/figure4_raybnn_sp`
+Creating Network 10 db
+Load Dataset
+Iteration 0, new_neuron_num: 63
+Epoch 0: loss = 0.027164163, elapsed time = 2.401115s
+Epoch 500: loss = 0.020144787, elapsed time = 24.127645s
+loss_val 0.012584776
+elapsed 28.40639
+Iteration 1, new_neuron_num: 90
+Epoch 0: loss = 0.01792598, elapsed time = 0.012171286s
+Epoch 500: loss = 0.018945891, elapsed time = 5.5622888s
+loss_val 0.016848145
+elapsed 7.2321053
+Iteration 2, new_neuron_num: 92
+Epoch 0: loss = 0.01731721, elapsed time = 0.012146599s
+===================================================================
+Epoch 104: loss = 0.00031088755, elapsed time = 1.4964088s
+Epoch 500: loss = 0.00000518666, elapsed time = 7.0704994s
+loss_val 0.000013422448
+elapsed 14.101462
+Iteration 3, new_neuron_num: 91
+===================================================================
+Epoch 0: loss = 0.000008877715, elapsed time = 0.031185206s
+Epoch 0: loss = 0.000008877715, elapsed time = 0.031296548s
+loss_val 0.0000028931663
+elapsed 8.49815
+Iteration 4, new_neuron_num: 92
+===================================================================
+Epoch 0: loss = 0.0000028893312, elapsed time = 0.15583163s
+Epoch 0: loss = 0.0000028893312, elapsed time = 0.15588012s
+loss_val 0.0000028903964
+elapsed 25.338816
+Iteration 5, new_neuron_num: 90
+===================================================================
+Epoch 0: loss = 0.000002894073, elapsed time = 0.016241804s
+Epoch 0: loss = 0.000002894073, elapsed time = 0.016355067s
+loss_val 0.0000028959403
+elapsed 12.644014
+Iteration 6, new_neuron_num: 92
+===================================================================
+Epoch 0: loss = 0.0000028888958, elapsed time = 0.016206848s
+Epoch 0: loss = 0.0000028888958, elapsed time = 0.016265268s
+loss_val 0.000002890721
+elapsed 13.918715
+Iteration 7, new_neuron_num: 92
+===================================================================
+Epoch 0: loss = 0.0000028914037, elapsed time = 0.017550822s
+Epoch 0: loss = 0.0000028914037, elapsed time = 0.01760852s
+loss_val 0.000002895296
+elapsed 18.279766
+Iteration 8, new_neuron_num: 92
+===================================================================
+Epoch 0: loss = 0.000002887467, elapsed time = 0.018120045s
+Epoch 0: loss = 0.000002887467, elapsed time = 0.018216668s
+loss_val 0.0000028894276
+elapsed 19.336634
+Iteration 9, new_neuron_num: 93
+===================================================================
+Epoch 0: loss = 0.0000028936008, elapsed time = 0.01995731s
+Epoch 0: loss = 0.0000028936008, elapsed time = 0.02006258s
+loss_val 0.0000028921559
+elapsed 25.145004
+Iteration 10, new_neuron_num: 95
+===================================================================
+Epoch 0: loss = 0.0000028907893, elapsed time = 0.019412365s
+Epoch 0: loss = 0.0000028907893, elapsed time = 0.019512992s
+Epoch 500: loss = 0.0000029951289, elapsed time = 30.079914s
+loss_val 0.0000029323246
+elapsed 60.13348
+Creating Network 10 db
+Load Dataset
+Iteration 0, new_neuron_num: 62
+Epoch 0: loss = 0.046439037, elapsed time = 0.023769785s
+Epoch 500: loss = 0.021637809, elapsed time = 4.2714715s
+loss_val 0.01537397
+elapsed 8.511261
+Iteration 1, new_neuron_num: 93
+Epoch 0: loss = 0.019180456, elapsed time = 0.012571322s
+Epoch 500: loss = 0.0919175, elapsed time = 5.2891016s
+loss_val 0.09168585
+elapsed 5.818718
+Iteration 2, new_neuron_num: 94
+Epoch 0: loss = 0.09445987, elapsed time = 0.01230015s
+===================================================================
+Epoch 80: loss = 0.00032121985, elapsed time = 1.1241903s
+loss_val 0.0000028881163
+elapsed 5.5800295
+Iteration 3, new_neuron_num: 91
+===================================================================
+Epoch 0: loss = 0.0000028873267, elapsed time = 0.013358857s
+Epoch 0: loss = 0.0000028873267, elapsed time = 0.013457393s
+loss_val 0.0000028893091
+elapsed 7.5146313
+Iteration 4, new_neuron_num: 91
+===================================================================
+Epoch 0: loss = 0.0000028915297, elapsed time = 0.013940574s
+Epoch 0: loss = 0.0000028915297, elapsed time = 0.014047666s
+loss_val 0.0000028938298
+elapsed 10.367325
+Iteration 5, new_neuron_num: 92
+===================================================================
+Epoch 0: loss = 0.000002887604, elapsed time = 0.016061679s
+Epoch 0: loss = 0.000002887604, elapsed time = 0.01616789s
+loss_val 0.0000028903507
+elapsed 10.766884
+Iteration 6, new_neuron_num: 93
+===================================================================
+Epoch 0: loss = 0.0000028910667, elapsed time = 0.016585467s
+Epoch 0: loss = 0.0000028910667, elapsed time = 0.01668789s
+loss_val 0.00000289031
+elapsed 14.785612
+Iteration 7, new_neuron_num: 93
+===================================================================
+Epoch 0: loss = 0.0000028885256, elapsed time = 0.017887432s
+Epoch 0: loss = 0.0000028885256, elapsed time = 0.017992511s
+loss_val 0.0000028904271
+elapsed 16.18806
+Iteration 8, new_neuron_num: 94
+===================================================================
+Epoch 0: loss = 0.00000289255, elapsed time = 0.017924724s
+Epoch 0: loss = 0.00000289255, elapsed time = 0.01802956s
+loss_val 0.000002894753
+elapsed 20.996101
+Iteration 9, new_neuron_num: 93
+===================================================================
+Epoch 0: loss = 0.0000028894697, elapsed time = 0.02005679s
+Epoch 0: loss = 0.0000028894697, elapsed time = 0.020155096s
+loss_val 0.000002890787
+elapsed 22.346981
+Iteration 10, new_neuron_num: 93
+===================================================================
+Epoch 0: loss = 0.000002893177, elapsed time = 0.0183035s
+Epoch 0: loss = 0.000002893177, elapsed time = 0.018408448s
+loss_val 0.0000029849982
+elapsed 24.316397
+Creating Network 10 db
+Load Dataset
+Iteration 0, new_neuron_num: 66
+Epoch 0: loss = 0.031136066, elapsed time = 0.01806488s
+Epoch 500: loss = 0.039455906, elapsed time = 4.277536s
+loss_val 0.031752396
+elapsed 11.518591
+Iteration 1, new_neuron_num: 92
+Epoch 0: loss = 0.03455455, elapsed time = 0.012518103s
+Epoch 500: loss = 0.0071630008, elapsed time = 5.386941s
+loss_val 0.0043235035
+elapsed 12.525534
+Iteration 2, new_neuron_num: 92
+Epoch 0: loss = 0.012724524, elapsed time = 0.012365774s
+===================================================================
+Epoch 113: loss = 0.00034766318, elapsed time = 1.5859506s
+Epoch 500: loss = 0.00015387373, elapsed time = 6.982275s
+loss_val 0.00012714503
+elapsed 13.944528
+Iteration 3, new_neuron_num: 92
+===================================================================
+Epoch 0: loss = 0.0001739614, elapsed time = 0.012332191s
+Epoch 0: loss = 0.0001739614, elapsed time = 0.012440336s
+loss_val 0.0000028892598
+elapsed 7.390879
+Iteration 4, new_neuron_num: 92
+===================================================================
+Epoch 0: loss = 0.0000028927057, elapsed time = 0.013459823s
+Epoch 0: loss = 0.0000028927057, elapsed time = 0.013566405s
+loss_val 0.000002893587
+elapsed 10.711518
+Iteration 5, new_neuron_num: 90
+===================================================================
+Epoch 0: loss = 0.000002891077, elapsed time = 0.01620739s
+Epoch 0: loss = 0.000002891077, elapsed time = 0.016312556s
+loss_val 0.000002893404
+elapsed 12.884952
+Iteration 6, new_neuron_num: 92
+===================================================================
+Epoch 0: loss = 0.0000028903253, elapsed time = 0.017115591s
+Epoch 0: loss = 0.0000028903253, elapsed time = 0.01722043s
+loss_val 0.000002894742
+elapsed 15.42705
+Iteration 7, new_neuron_num: 91
+===================================================================
+Epoch 0: loss = 0.0000028907095, elapsed time = 0.01758486s
+Epoch 0: loss = 0.0000028907095, elapsed time = 0.017684868s
+loss_val 0.00000289056
+elapsed 16.170914
+Iteration 8, new_neuron_num: 93
+===================================================================
+Epoch 0: loss = 0.0000028923303, elapsed time = 0.018342912s
+Epoch 0: loss = 0.0000028923303, elapsed time = 0.01844253s
+loss_val 0.0000028917977
+elapsed 22.09246
+Iteration 9, new_neuron_num: 95
+===================================================================
+Epoch 0: loss = 0.0000028885038, elapsed time = 0.020152288s
+Epoch 0: loss = 0.0000028885038, elapsed time = 0.020254232s
+loss_val 0.0000028909383
+elapsed 23.045183
+Iteration 10, new_neuron_num: 96
+===================================================================
+Epoch 0: loss = 0.0000028946752, elapsed time = 0.06370476s
+Epoch 0: loss = 0.0000028946752, elapsed time = 0.06380561s
+loss_val 0.0000029880043
+elapsed 24.581964
+Creating Network 10 db
+Load Dataset
+Iteration 0, new_neuron_num: 64
+Epoch 0: loss = 0.03509505, elapsed time = 0.023517484s
+Epoch 500: loss = 0.03169994, elapsed time = 4.3008175s
+loss_val 0.019429307
+elapsed 12.344248
+Iteration 1, new_neuron_num: 91
+Epoch 0: loss = 0.031683784, elapsed time = 0.012509129s
+Epoch 500: loss = 0.053439748, elapsed time = 5.547399s
+loss_val 0.019602727
+elapsed 11.063336
+Iteration 2, new_neuron_num: 91
+Epoch 0: loss = 0.017127197, elapsed time = 0.012412168s
+===================================================================
+Epoch 60: loss = 0.00030257457, elapsed time = 0.86332774s
+loss_val 0.000002890124
+elapsed 12.704975
+Iteration 3, new_neuron_num: 92
+===================================================================
+Epoch 0: loss = 0.0000028889006, elapsed time = 0.013042037s
+Epoch 0: loss = 0.0000028889006, elapsed time = 0.013146614s
+loss_val 0.0000028897543
+elapsed 7.4830956
+Iteration 4, new_neuron_num: 93
+===================================================================
+Epoch 0: loss = 0.0000028906145, elapsed time = 0.013609588s
+Epoch 0: loss = 0.0000028906145, elapsed time = 0.013717873s
+loss_val 0.0000028921158
+elapsed 10.678975
+Iteration 5, new_neuron_num: 93
+===================================================================
+Epoch 0: loss = 0.0000028901113, elapsed time = 0.016494486s
+Epoch 0: loss = 0.0000028901113, elapsed time = 0.016600678s
+loss_val 0.0000028898032
+elapsed 11.376081
+Iteration 6, new_neuron_num: 92
+===================================================================
+Epoch 0: loss = 0.0000028929715, elapsed time = 0.016434724s
+Epoch 0: loss = 0.0000028929715, elapsed time = 0.016530484s
+loss_val 0.0000028915586
+elapsed 14.961525
+Iteration 7, new_neuron_num: 94
+===================================================================
+Epoch 0: loss = 0.0000028873167, elapsed time = 0.017901229s
+Epoch 0: loss = 0.0000028873167, elapsed time = 0.01800732s
+loss_val 0.000002891027
+elapsed 16.898714
+Iteration 8, new_neuron_num: 92
+===================================================================
+Epoch 0: loss = 0.000002893771, elapsed time = 0.01763646s
+Epoch 0: loss = 0.000002893771, elapsed time = 0.017741457s
+loss_val 0.0000028929271
+elapsed 21.814756
+Iteration 9, new_neuron_num: 92
+===================================================================
+Epoch 0: loss = 0.0000028889472, elapsed time = 0.020179411s
+Epoch 0: loss = 0.0000028889472, elapsed time = 0.02026886s
+loss_val 0.0000028909958
+elapsed 22.711914
+Iteration 10, new_neuron_num: 95
+===================================================================
+Epoch 0: loss = 0.0000028924305, elapsed time = 0.01898697s
+Epoch 0: loss = 0.0000028924305, elapsed time = 0.019091928s
+loss_val 0.0000029472506
+elapsed 27.31584
+Creating Network 10 db
+Load Dataset
+Iteration 0, new_neuron_num: 64
+Epoch 0: loss = 0.040783945, elapsed time = 0.02249406s
+loss_val 0.020785125
+elapsed 3.8771129
+Iteration 1, new_neuron_num: 91
+Epoch 0: loss = 0.022223938, elapsed time = 0.04438115s
+Epoch 500: loss = 0.018338518, elapsed time = 5.5016413s
+loss_val 0.011827844
+elapsed 10.954857
+Iteration 2, new_neuron_num: 91
+Epoch 0: loss = 0.014568402, elapsed time = 0.012397318s
+Epoch 500: loss = 0.0071722125, elapsed time = 7.056479s
+loss_val 0.0046607996
+elapsed 14.090593
+Iteration 3, new_neuron_num: 93
+Epoch 0: loss = 0.006119223, elapsed time = 0.013283651s
+===================================================================
+Epoch 112: loss = 0.00032747694, elapsed time = 2.069242s
+Epoch 500: loss = 0.00003190541, elapsed time = 9.195025s
+loss_val 0.00003328473
+elapsed 18.368855
+Iteration 4, new_neuron_num: 91
+===================================================================
+Epoch 0: loss = 0.000019471707, elapsed time = 0.014018158s
+Epoch 0: loss = 0.000019471707, elapsed time = 0.014124028s
+loss_val 0.0000028901195
+elapsed 9.129384
+Iteration 5, new_neuron_num: 91
+===================================================================
+Epoch 0: loss = 0.0000028930156, elapsed time = 0.01585132s
+Epoch 0: loss = 0.0000028930156, elapsed time = 0.015972158s
+loss_val 0.0000028972747
+elapsed 12.720108
+Iteration 6, new_neuron_num: 93
+===================================================================
+Epoch 0: loss = 0.000002888927, elapsed time = 0.01651918s
+Epoch 0: loss = 0.000002888927, elapsed time = 0.016625863s
+loss_val 0.0000028907775
+elapsed 13.352661
+Iteration 7, new_neuron_num: 92
+===================================================================
+Epoch 0: loss = 0.0000028932113, elapsed time = 0.016665727s
+Epoch 0: loss = 0.0000028932113, elapsed time = 0.2262555s
+loss_val 0.0000028910097
+elapsed 18.422213
+Iteration 8, new_neuron_num: 92
+===================================================================
+Epoch 0: loss = 0.0000028878214, elapsed time = 0.018279264s
+Epoch 0: loss = 0.0000028878214, elapsed time = 0.018386887s
+loss_val 0.000002890389
+elapsed 19.10394
+Iteration 9, new_neuron_num: 95
+===================================================================
+Epoch 0: loss = 0.0000028949516, elapsed time = 0.0199939s
+Epoch 0: loss = 0.0000028949516, elapsed time = 0.38676274s
+loss_val 0.0000028943784
+elapsed 26.196436
+Iteration 10, new_neuron_num: 93
+===================================================================
+Epoch 0: loss = 0.000002889377, elapsed time = 0.019739356s
+Epoch 0: loss = 0.000002889377, elapsed time = 0.019852849s
+loss_val 0.0000028908753
+elapsed 24.407328
+Creating Network 10 db
+Load Dataset
+Iteration 0, new_neuron_num: 62
+Epoch 0: loss = 0.035619866, elapsed time = 0.022961129s
+Epoch 500: loss = 0.0894962, elapsed time = 4.297126s
+loss_val 0.057413228
+elapsed 8.559683
+Iteration 1, new_neuron_num: 91
+Epoch 0: loss = 0.058859445, elapsed time = 0.012296224s
+Epoch 500: loss = 0.050433893, elapsed time = 5.530194s
+loss_val 0.03212156
+elapsed 11.192407
+Iteration 2, new_neuron_num: 93
+Epoch 0: loss = 0.032588907, elapsed time = 0.017593537s
+Epoch 500: loss = 336.96066, elapsed time = 6.972821s
+loss_val 66.250374
+elapsed 13.923908
+Iteration 3, new_neuron_num: 91
+Epoch 0: loss = 19.971481, elapsed time = 0.012345217s
+loss_val 67098.88
+elapsed 7.435411
+Iteration 4, new_neuron_num: 92
+Epoch 0: loss = 67038.58, elapsed time = 0.013936321s
+loss_val 67041.87
+elapsed 9.123104
+Iteration 5, new_neuron_num: 94
+Epoch 0: loss = 67012.27, elapsed time = 0.01614407s
+loss_val 67036.57
+elapsed 11.458236
+Iteration 6, new_neuron_num: 92
+Epoch 0: loss = 67075.47, elapsed time = 0.016322099s
+loss_val 67105.234
+elapsed 13.629707
+Iteration 7, new_neuron_num: 92
+Epoch 0: loss = 67182.32, elapsed time = 0.017124865s
+loss_val 67206.59
+elapsed 16.21717
+Iteration 8, new_neuron_num: 94
+Epoch 0: loss = 67281.28, elapsed time = 0.016911812s
+loss_val 67288.11
+elapsed 18.646618
+Iteration 9, new_neuron_num: 93
+Epoch 0: loss = 67332.33, elapsed time = 0.019776383s
+loss_val 67335.92
+elapsed 22.464882
+Iteration 10, new_neuron_num: 93
+Epoch 0: loss = 67150.03, elapsed time = 0.01909648s
+loss_val 67142.63
+elapsed 24.786795
+Creating Network 10 db
+Load Dataset
+Iteration 0, new_neuron_num: 63
+Epoch 0: loss = 0.043618735, elapsed time = 0.012268393s
+Epoch 500: loss = 0.03804312, elapsed time = 4.235644s
+loss_val 0.028461237
+elapsed 10.0939045
+Iteration 1, new_neuron_num: 92
+Epoch 0: loss = 0.035338107, elapsed time = 0.012569534s
+Epoch 500: loss = 0.041652434, elapsed time = 5.511304s
+loss_val 0.019853141
+elapsed 10.966176
+Iteration 2, new_neuron_num: 91
+Epoch 0: loss = 0.026702221, elapsed time = 0.012468423s
+Epoch 500: loss = 0.0069518723, elapsed time = 7.070023s
+loss_val 0.002069715
+elapsed 14.121656
+Iteration 3, new_neuron_num: 93
+Epoch 0: loss = 0.002064066, elapsed time = 0.012934844s
+===================================================================
+Epoch 40: loss = 0.00034304624, elapsed time = 0.761766s
+loss_val 0.0000028910931
+elapsed 7.4985633
+Iteration 4, new_neuron_num: 91
+===================================================================
+Epoch 0: loss = 0.0000028906209, elapsed time = 0.013748601s
+Epoch 0: loss = 0.0000028906209, elapsed time = 0.01384842s
+loss_val 0.00000289539
+elapsed 10.6242695
+Iteration 5, new_neuron_num: 93
+===================================================================
+Epoch 0: loss = 0.0000028888103, elapsed time = 0.01634748s
+Epoch 0: loss = 0.0000028888103, elapsed time = 0.016453931s
+loss_val 0.0000028903694
+elapsed 11.125376
+Iteration 6, new_neuron_num: 93
+===================================================================
+Epoch 0: loss = 0.000002895134, elapsed time = 0.016495239s
+Epoch 0: loss = 0.000002895134, elapsed time = 0.0166023s
+loss_val 0.0000028922404
+elapsed 14.953235
+Iteration 7, new_neuron_num: 94
+===================================================================
+Epoch 0: loss = 0.0000028900458, elapsed time = 0.017592816s
+Epoch 0: loss = 0.0000028900458, elapsed time = 0.017709143s
+loss_val 0.0000028936172
+elapsed 18.687307
+Iteration 8, new_neuron_num: 92
+===================================================================
+Epoch 0: loss = 0.0000028896618, elapsed time = 0.017841393s
+Epoch 0: loss = 0.0000028896618, elapsed time = 0.017946132s
+loss_val 0.0000028919387
+elapsed 18.8132
+Iteration 9, new_neuron_num: 93
+===================================================================
+Epoch 0: loss = 0.0000028908119, elapsed time = 0.019324256s
+Epoch 0: loss = 0.0000028908119, elapsed time = 0.019445986s
+loss_val 0.0000028937818
+elapsed 24.210196
+Iteration 10, new_neuron_num: 96
+===================================================================
+Epoch 0: loss = 0.0000028877105, elapsed time = 0.018129608s
+Epoch 0: loss = 0.0000028877105, elapsed time = 0.018234646s
+loss_val 0.0000029433713
+elapsed 26.5862
+Creating Network 10 db
+Load Dataset
+Iteration 0, new_neuron_num: 64
+Epoch 0: loss = 0.03147419, elapsed time = 0.012413891s
+Epoch 500: loss = 0.035999868, elapsed time = 4.279961s
+loss_val 0.035435397
+elapsed 5.1328216
+Iteration 1, new_neuron_num: 92
+Epoch 0: loss = 0.03750961, elapsed time = 0.012539007s
+Epoch 500: loss = 0.017996842, elapsed time = 5.385813s
+loss_val 0.012930963
+elapsed 6.462811
+Iteration 2, new_neuron_num: 92
+Epoch 0: loss = 0.013715166, elapsed time = 0.012687878s
+loss_val 77122.81
+elapsed 5.461662
+Iteration 3, new_neuron_num: 93
+Epoch 0: loss = 77142.28, elapsed time = 0.013407477s
+loss_val 76566.23
+elapsed 7.236181
+Iteration 4, new_neuron_num: 91
+Epoch 0: loss = 76795.52, elapsed time = 0.014471894s
+loss_val 76176.09
+elapsed 8.989325
+Iteration 5, new_neuron_num: 93
+Epoch 0: loss = 76298.14, elapsed time = 0.016257277s
+loss_val 75688.945
+elapsed 10.822451
+Iteration 6, new_neuron_num: 91
+Epoch 0: loss = 75916.79, elapsed time = 0.016604312s
+loss_val 75304.97
+elapsed 13.612953
+Iteration 7, new_neuron_num: 93
+Epoch 0: loss = 75449.94, elapsed time = 0.016653804s
+loss_val 74794.05
+elapsed 15.828212
+Iteration 8, new_neuron_num: 92
+Epoch 0: loss = 74978.25, elapsed time = 0.01797404s
+loss_val 74309.2
+elapsed 18.169712
+Iteration 9, new_neuron_num: 92
+Epoch 0: loss = 74503.74, elapsed time = 0.019219862s
+loss_val 73851.195
+elapsed 21.479483
+Iteration 10, new_neuron_num: 93
+Epoch 0: loss = 73880.766, elapsed time = 0.018094085s
+loss_val 73314.03
+elapsed 23.045914
+Creating Network 10 db
+Load Dataset
+Iteration 0, new_neuron_num: 62
+Epoch 0: loss = 0.024843076, elapsed time = 0.012324678s
+===================================================================
+Epoch 70: loss = 0.00034013076, elapsed time = 0.6127953s
+Epoch 500: loss = 0.000042391694, elapsed time = 4.2950377s
+loss_val 0.000025607695
+elapsed 8.573069
+Iteration 1, new_neuron_num: 91
+Epoch 0: loss = 0.0025159016, elapsed time = 0.012454687s
+Epoch 500: loss = 0.06181724, elapsed time = 5.4021163s
+loss_val 0.030415528
+elapsed 10.25556
+Iteration 2, new_neuron_num: 91
+Epoch 0: loss = 0.03535194, elapsed time = 0.023098636s
+===================================================================
+Epoch 151: loss = 0.0003010172, elapsed time = 2.094351s
+Epoch 500: loss = 0.00044366095, elapsed time = 6.879918s
+loss_val 0.00027618065
+elapsed 13.728663
+Iteration 3, new_neuron_num: 93
+Epoch 0: loss = 0.00040229893, elapsed time = 0.012452844s
+===================================================================
+Epoch 2: loss = 0.00008579671, elapsed time = 0.04707633s
+loss_val 0.0000028923891
+elapsed 8.281203
+Iteration 4, new_neuron_num: 91
+===================================================================
+Epoch 0: loss = 0.0000028898678, elapsed time = 0.013741689s
+Epoch 0: loss = 0.0000028898678, elapsed time = 0.013849993s
+loss_val 0.000002893696
+elapsed 25.7335
+Iteration 5, new_neuron_num: 91
+===================================================================
+Epoch 0: loss = 0.0000028911568, elapsed time = 0.016285885s
+Epoch 0: loss = 0.0000028911568, elapsed time = 0.016380973s
+loss_val 0.000002891193
+elapsed 14.877118
+Iteration 6, new_neuron_num: 95
+===================================================================
+Epoch 0: loss = 0.000002890885, elapsed time = 0.016552594s
+Epoch 0: loss = 0.000002890885, elapsed time = 0.016651168s
+loss_val 0.0000028919005
+elapsed 13.907281
+Iteration 7, new_neuron_num: 93
+===================================================================
+Epoch 0: loss = 0.000002890048, elapsed time = 0.016600303s
+Epoch 0: loss = 0.000002890048, elapsed time = 0.016712286s
+loss_val 0.000002893613
+elapsed 18.719828
+Iteration 8, new_neuron_num: 91
+===================================================================
+Epoch 0: loss = 0.0000028879701, elapsed time = 0.018062796s
+Epoch 0: loss = 0.0000028879701, elapsed time = 0.018169608s
+loss_val 0.0000028905035
+elapsed 19.275354
+Iteration 9, new_neuron_num: 92
+===================================================================
+Epoch 0: loss = 0.000002893999, elapsed time = 0.019782737s
+Epoch 0: loss = 0.000002893999, elapsed time = 0.01989031s
+loss_val 0.000002890589
+elapsed 24.632652
+Iteration 10, new_neuron_num: 93
+===================================================================
+Epoch 0: loss = 0.0000028920774, elapsed time = 0.0189054s
+Epoch 0: loss = 0.0000028920774, elapsed time = 0.019009957s
+Epoch 500: loss = 0.0000029613345, elapsed time = 30.275307s
+loss_val 0.0000029613345
+elapsed 30.324541
+Creating Network 10 db
+Load Dataset
+Iteration 0, new_neuron_num: 67
+Epoch 0: loss = 0.026560163, elapsed time = 0.0204084s
+===================================================================
+Epoch 83: loss = 0.00033360618, elapsed time = 0.72882235s
+Epoch 500: loss = 0.00006477165, elapsed time = 4.288925s
+loss_val 0.000038345213
+elapsed 8.549299
+Iteration 1, new_neuron_num: 92
+Epoch 0: loss = 0.0030949768, elapsed time = 0.012355143s
+===================================================================
+Epoch 74: loss = 0.00034390276, elapsed time = 0.8200061s
+Epoch 500: loss = 0.00006164329, elapsed time = 5.4766912s
+loss_val 0.000037827303
+elapsed 10.933125
+Iteration 2, new_neuron_num: 93
+Epoch 0: loss = 0.0026025288, elapsed time = 0.027027883s
+Epoch 500: loss = 0.018162688, elapsed time = 6.865054s
+loss_val 0.011550068
+elapsed 13.700655
+Iteration 3, new_neuron_num: 92
+Epoch 0: loss = 0.021522244, elapsed time = 0.012320037s
+Epoch 500: loss = 0.009133477, elapsed time = 9.055732s
+loss_val 0.0066866674
+elapsed 15.396781
+Iteration 4, new_neuron_num: 91
+Epoch 0: loss = 0.0067140483, elapsed time = 0.01381509s
+loss_val 114496.83
+elapsed 9.040303
+Iteration 5, new_neuron_num: 92
+Epoch 0: loss = 106327.05, elapsed time = 0.016525056s
+Epoch 500: loss = 103624.74, elapsed time = 13.817733s
+loss_val 102723.57
+elapsed 20.733862
+Iteration 6, new_neuron_num: 94
+Epoch 0: loss = 101250.81, elapsed time = 0.030337363s
+Epoch 500: loss = 100111.18, elapsed time = 17.88121s
+loss_val 91909.17
+elapsed 33.991432
+Iteration 7, new_neuron_num: 95
+Epoch 0: loss = 94190.4, elapsed time = 0.017877435s
+Epoch 500: loss = 94602.7, elapsed time = 19.49738s
+loss_val 81557.29
+elapsed 38.96091
+Iteration 8, new_neuron_num: 94
+Epoch 0: loss = 89947.17, elapsed time = 0.017614258s
+loss_val 94644.58
+elapsed 25.893438
+Iteration 9, new_neuron_num: 94
+Epoch 0: loss = 88472.18, elapsed time = 0.0192124s
+Epoch 500: loss = 85663.2, elapsed time = 27.157024s
+loss_val 64218.848
+elapsed 54.281998
+Iteration 10, new_neuron_num: 93
+Epoch 0: loss = 83642.77, elapsed time = 0.018933268s
+Epoch 500: loss = 70950.43, elapsed time = 29.703173s
+loss_val 53225.258
+elapsed 59.372635
+Creating Network 10 db
+Load Dataset
+Iteration 0, new_neuron_num: 65
+Epoch 0: loss = 0.036113948, elapsed time = 0.012395296s
+Epoch 500: loss = 0.029016102, elapsed time = 4.263859s
+loss_val 0.029374106
+elapsed 5.539347
+Iteration 1, new_neuron_num: 90
+Epoch 0: loss = 0.03319852, elapsed time = 0.01232305s
+Epoch 500: loss = 0.022205569, elapsed time = 5.4530525s
+loss_val 0.013707316
+elapsed 10.88258
+Iteration 2, new_neuron_num: 93
+Epoch 0: loss = 0.0181468, elapsed time = 0.012425643s
+Epoch 500: loss = 3716.7559, elapsed time = 6.805413s
+loss_val 3570.1614
+elapsed 8.169783
+Iteration 3, new_neuron_num: 93
+Epoch 0: loss = 3457.4072, elapsed time = 0.03221579s
+Epoch 500: loss = 966.64966, elapsed time = 9.07845s
+loss_val 0.024682075
+elapsed 18.11938
+Iteration 4, new_neuron_num: 91
+Epoch 0: loss = 0.023046277, elapsed time = 0.013844155s
+loss_val 25879.445
+elapsed 9.057605
+Iteration 5, new_neuron_num: 92
+Epoch 0: loss = 25767.934, elapsed time = 0.016369604s
+loss_val 25505.758
+elapsed 11.60105
+Iteration 6, new_neuron_num: 92
+Epoch 0: loss = 25641.787, elapsed time = 0.016444996s
+loss_val 24638.73
+elapsed 13.671593
+Iteration 7, new_neuron_num: 94
+Epoch 0: loss = 24720.264, elapsed time = 0.01769222s
+loss_val 24478.176
+elapsed 16.169056
+Iteration 8, new_neuron_num: 94
+Epoch 0: loss = 24463.34, elapsed time = 0.017889408s
+loss_val 24211.887
+elapsed 19.587599
+Iteration 9, new_neuron_num: 95
+Epoch 0: loss = 24272.846, elapsed time = 0.019940412s
+loss_val 23990.357
+elapsed 23.02974
+Iteration 10, new_neuron_num: 95
+Epoch 0: loss = 24340.053, elapsed time = 0.018100576s

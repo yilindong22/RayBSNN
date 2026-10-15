@@ -1,0 +1,1661 @@
+
+Lmod is automatically replacing "intel/2020.1.217" with "gcc/9.3.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) mii/1.1.2
+
+The following have been reloaded with a version change:
+  1) StdEnv/2023 => StdEnv/2020
+  2) blis/0.9.0 => blis/0.8.1
+  3) flexiblas/3.3.1 => flexiblas/3.0.4
+  4) gcc/12.3 => gcc/9.3.0
+  5) gcccore/.12.3 => gcccore/.9.3.0
+  6) gentoo/2023 => gentoo/2020
+  7) libfabric/1.18.0 => libfabric/1.10.1
+  8) openmpi/4.1.5 => openmpi/4.0.3
+  9) ucx/1.14.1 => ucx/1.8.0
+
+Thu Jan 23 09:04:16 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.144.03             Driver Version: 550.144.03     CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A100-SXM4-40GB          Off |   00000000:C1:00.0 Off |                    0 |
+| N/A   28C    P0             52W /  400W |       1MiB /  40960MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+   Compiling autocfg v1.1.0
+   Compiling proc-macro2 v1.0.66
+   Compiling unicode-ident v1.0.11
+   Compiling quote v1.0.32
+   Compiling thiserror v1.0.44
+   Compiling syn v2.0.28
+   Compiling thiserror-impl v1.0.44
+   Compiling cfg-if v1.0.0
+   Compiling libm v0.2.7
+   Compiling num-traits v0.2.16
+   Compiling ucd-trie v0.1.6
+   Compiling pest v2.7.2
+   Compiling libc v0.2.147
+   Compiling num-integer v0.1.45
+   Compiling serde v1.0.183
+   Compiling num-bigint v0.4.3
+   Compiling crossbeam-utils v0.8.16
+   Compiling memoffset v0.9.0
+   Compiling serde_derive v1.0.183
+   Compiling num-complex v0.4.3
+   Compiling semver-parser v0.10.2
+   Compiling crossbeam-epoch v0.9.15
+   Compiling serde_json v1.0.104
+   Compiling crc32fast v1.3.2
+   Compiling once_cell v1.18.0
+   Compiling pest_meta v2.7.2
+   Compiling semver v0.11.0
+   Compiling matrixmultiply v0.3.7
+   Compiling num-rational v0.4.1
+   Compiling num-iter v0.1.43
+   Compiling itoa v1.0.9
+   Compiling scopeguard v1.2.0
+   Compiling ryu v1.0.15
+   Compiling adler v1.0.2
+   Compiling miniz_oxide v0.7.1
+   Compiling rustc_version v0.3.3
+   Compiling pest_generator v2.7.2
+   Compiling getrandom v0.2.10
+   Compiling rawpointer v0.2.1
+   Compiling rayon-core v1.11.0
+   Compiling rand_core v0.6.4
+   Compiling pest_derive v2.7.2
+   Compiling flate2 v1.0.26
+   Compiling arrayfire_fork v3.8.1
+   Compiling crossbeam-deque v0.8.3
+   Compiling crossbeam-channel v0.5.8
+   Compiling num_cpus v1.16.0
+   Compiling byteorder v1.4.3
+   Compiling ppv-lite86 v0.2.17
+   Compiling rand_chacha v0.3.1
+   Compiling zip v0.5.13
+   Compiling num v0.4.1
+   Compiling py_literal v0.4.0
+   Compiling ndarray v0.15.6
+   Compiling half v2.3.1
+   Compiling match_cfg v0.1.0
+   Compiling lazy_static v1.4.0
+   Compiling either v1.9.0
+   Compiling rayon v1.7.0
+   Compiling hostname v0.3.1
+   Compiling ndarray-npy v0.8.1
+   Compiling rand v0.8.5
+   Compiling nohash-hasher v0.2.0
+   Compiling raybnn v0.1.5 (/lustre07/scratch/yilind/raybnn)
+    Finished release [optimized] target(s) in 2m 07s
+     Running `target/release/examples/figure4_raybnn_sp`
+Creating Network
+Load Dataset
+Iteration 0, new_neuron_num: 83
+Epoch 0: loss = 0.03545392
+Epoch 50: loss = 0.43226787
+Epoch 100: loss = 0.049567737
+Epoch 150: loss = 0.032630727
+Epoch 200: loss = 0.0267735
+Epoch 250: loss = 0.023022112
+Epoch 300: loss = 0.020386644
+Epoch 350: loss = 0.018430633
+Epoch 400: loss = 0.01691697
+Epoch 450: loss = 0.015705243
+Epoch 500: loss = 0.014707724
+Epoch 550: loss = 0.013867366
+Epoch 600: loss = 0.013145804
+Epoch 650: loss = 0.012516431
+Epoch 700: loss = 0.011960278
+Epoch 750: loss = 0.011463458
+Epoch 800: loss = 0.011015563
+Epoch 850: loss = 0.010608621
+Epoch 900: loss = 0.010236383
+Epoch 950: loss = 0.009893897
+loss_val 0.009598993
+elapsed 29.318462
+Iteration 1, new_neuron_num: 101
+Epoch 0: loss = 0.021092849
+Epoch 50: loss = 0.0041230717
+Epoch 100: loss = 0.00032680534
+Epoch 150: loss = 0.000023610888
+Epoch 200: loss = 0.000003106632
+Epoch 250: loss = 0.000002885315
+Epoch 300: loss = 0.0000028834957
+Epoch 350: loss = 0.0000028835263
+Epoch 400: loss = 0.0000028835411
+loss_val 0.0000028835411
+elapsed 7.756135
+Iteration 2, new_neuron_num: 101
+Epoch 0: loss = 0.000002883512
+Epoch 50: loss = 0.00023264818
+Epoch 100: loss = 0.000020152842
+Epoch 150: loss = 0.0000031341044
+Epoch 200: loss = 0.0000028846634
+Epoch 250: loss = 0.0000028843212
+Epoch 300: loss = 0.0000028845488
+Epoch 350: loss = 0.000002885124
+Epoch 400: loss = 0.0000028858124
+loss_val 0.0000028858124
+elapsed 11.173903
+Iteration 3, new_neuron_num: 103
+Epoch 0: loss = 0.0000028847328
+Epoch 50: loss = 0.00020673955
+Epoch 100: loss = 0.000018679815
+Epoch 150: loss = 0.000003222047
+Epoch 200: loss = 0.000002884857
+Epoch 250: loss = 0.0000028841594
+Epoch 300: loss = 0.0000028839606
+Epoch 350: loss = 0.0000028837633
+Epoch 400: loss = 0.0000028837721
+loss_val 0.0000028837721
+elapsed 29.645323
+Iteration 4, new_neuron_num: 101
+Epoch 0: loss = 0.000002884632
+Epoch 50: loss = 0.00027712015
+Epoch 100: loss = 0.00001732932
+Epoch 150: loss = 0.0000032710932
+Epoch 200: loss = 0.0000028840036
+Epoch 250: loss = 0.000002883905
+Epoch 300: loss = 0.0000028839274
+Epoch 350: loss = 0.000002883913
+Epoch 400: loss = 0.000002883954
+loss_val 0.000002883954
+elapsed 20.769413
+Iteration 5, new_neuron_num: 102
+Epoch 0: loss = 0.000002883336
+Epoch 50: loss = 0.00025422647
+Epoch 100: loss = 0.000019157864
+Epoch 150: loss = 0.0000032436533
+Epoch 200: loss = 0.000002887308
+Epoch 250: loss = 0.0000028840523
+Epoch 300: loss = 0.0000028841778
+Epoch 350: loss = 0.0000028843187
+Epoch 400: loss = 0.0000028845095
+loss_val 0.0000028845095
+elapsed 26.394045
+Iteration 6, new_neuron_num: 102
+Epoch 0: loss = 0.0000028836907
+Epoch 50: loss = 0.00028352436
+Epoch 100: loss = 0.000017060998
+Epoch 150: loss = 0.0000031763363
+Epoch 200: loss = 0.0000028851807
+Epoch 250: loss = 0.0000028843408
+Epoch 300: loss = 0.0000028845025
+Epoch 350: loss = 0.000002884528
+Epoch 400: loss = 0.0000028844217
+loss_val 0.0000028844217
+elapsed 33.681885
+Iteration 7, new_neuron_num: 103
+Epoch 0: loss = 0.0000028836873
+Epoch 50: loss = 0.00027815928
+Epoch 100: loss = 0.000019213781
+Epoch 150: loss = 0.0000032805224
+Epoch 200: loss = 0.0000028858321
+Epoch 250: loss = 0.0000028838076
+Epoch 300: loss = 0.0000028839459
+Epoch 350: loss = 0.0000028841569
+Epoch 400: loss = 0.0000028845534
+loss_val 0.0000028845534
+elapsed 39.265938
+Iteration 8, new_neuron_num: 103
+Epoch 0: loss = 0.0000028839465
+Epoch 50: loss = 0.00031883456
+Epoch 100: loss = 0.00002012695
+Epoch 150: loss = 0.0000031572408
+Epoch 200: loss = 0.000002885037
+Epoch 250: loss = 0.000002883754
+Epoch 300: loss = 0.0000028838385
+Epoch 350: loss = 0.0000028839333
+Epoch 400: loss = 0.0000028839993
+loss_val 0.0000028839993
+elapsed 46.658978
+Iteration 9, new_neuron_num: 103
+Epoch 0: loss = 0.0000028835739
+Epoch 50: loss = 0.00026556593
+Epoch 100: loss = 0.000021599471
+Epoch 150: loss = 0.0000033085087
+Epoch 200: loss = 0.0000028847344
+Epoch 250: loss = 0.000002884734
+Epoch 300: loss = 0.0000028848729
+Epoch 350: loss = 0.0000028853174
+Epoch 400: loss = 0.0000028857103
+loss_val 0.0000028857103
+elapsed 52.593132
+Iteration 10, new_neuron_num: 531
+Epoch 0: loss = 0.000002883742
+Epoch 50: loss = 0.00041943634
+Epoch 100: loss = 0.000030307834
+Epoch 150: loss = 0.000003908133
+Epoch 200: loss = 0.0000029108432
+Epoch 250: loss = 0.0000029016082
+Epoch 300: loss = 0.0000028975735
+Epoch 350: loss = 0.0000028958684
+Epoch 400: loss = 0.0000028926124
+loss_val 0.0000028926124
+elapsed 58.606712
+Creating Network
+Load Dataset
+Iteration 0, new_neuron_num: 82
+Epoch 0: loss = 0.026114592
+Epoch 50: loss = 0.30067793
+Epoch 100: loss = 0.07214913
+Epoch 150: loss = 0.046677817
+Epoch 200: loss = 0.03866591
+Epoch 250: loss = 0.034638435
+Epoch 300: loss = 0.03190979
+Epoch 350: loss = 0.029790977
+Epoch 400: loss = 0.028050201
+Epoch 450: loss = 0.02657653
+Epoch 500: loss = 0.02530333
+Epoch 550: loss = 0.024186095
+Epoch 600: loss = 0.023193417
+Epoch 650: loss = 0.022302305
+Epoch 700: loss = 0.021495413
+Epoch 750: loss = 0.02075938
+Epoch 800: loss = 0.020083675
+Epoch 850: loss = 0.019459868
+Epoch 900: loss = 0.018881116
+Epoch 950: loss = 0.018341783
+loss_val 0.017867984
+elapsed 13.179067
+Iteration 1, new_neuron_num: 100
+Epoch 0: loss = 0.028526768
+Epoch 50: loss = 0.07210337
+Epoch 100: loss = 0.033120174
+Epoch 150: loss = 0.024202444
+Epoch 200: loss = 0.019791206
+Epoch 250: loss = 0.016148943
+Epoch 300: loss = 0.013077924
+Epoch 350: loss = 0.010838231
+Epoch 400: loss = 0.009329775
+Epoch 450: loss = 0.00828028
+Epoch 500: loss = 0.0074752513
+Epoch 550: loss = 0.0068265237
+Epoch 600: loss = 0.006287904
+Epoch 650: loss = 0.005827625
+Epoch 700: loss = 0.005424543
+Epoch 750: loss = 0.005064795
+Epoch 800: loss = 0.004739041
+Epoch 850: loss = 0.004440788
+Epoch 900: loss = 0.004165389
+Epoch 950: loss = 0.003909484
+loss_val 0.005205967
+elapsed 19.330624
+Iteration 2, new_neuron_num: 101
+Epoch 0: loss = 0.0033651767
+Epoch 50: loss = 0.00008620034
+Epoch 100: loss = 0.00001632917
+Epoch 150: loss = 0.0000030678939
+Epoch 200: loss = 0.000002888196
+Epoch 250: loss = 0.0000028852726
+Epoch 300: loss = 0.000002885278
+Epoch 350: loss = 0.0000028850652
+Epoch 400: loss = 0.000002884722
+loss_val 0.000002884722
+elapsed 11.179574
+Iteration 3, new_neuron_num: 102
+Epoch 0: loss = 0.0000028833622
+Epoch 50: loss = 0.00023075697
+Epoch 100: loss = 0.000017759809
+Epoch 150: loss = 0.0000033300719
+Epoch 200: loss = 0.0000028864104
+Epoch 250: loss = 0.0000028864351
+Epoch 300: loss = 0.0000028870666
+Epoch 350: loss = 0.000002887653
+Epoch 400: loss = 0.0000028876948
+loss_val 0.0000028876948
+elapsed 15.223865
+Iteration 4, new_neuron_num: 103
+Epoch 0: loss = 0.0000028844634
+Epoch 50: loss = 0.00024671384
+Epoch 100: loss = 0.000022544751
+Epoch 150: loss = 0.0000031837644
+Epoch 200: loss = 0.0000028859652
+Epoch 250: loss = 0.0000028838879
+Epoch 300: loss = 0.0000028842248
+Epoch 350: loss = 0.000002884551
+Epoch 400: loss = 0.0000028848797
+loss_val 0.0000028848797
+elapsed 21.59527
+Iteration 5, new_neuron_num: 101
+Epoch 0: loss = 0.0000028832596
+Epoch 50: loss = 0.00024577673
+Epoch 100: loss = 0.000024800065
+Epoch 150: loss = 0.000003173504
+Epoch 200: loss = 0.0000028880274
+Epoch 250: loss = 0.0000028849038
+Epoch 300: loss = 0.0000028849172
+Epoch 350: loss = 0.0000028849686
+Epoch 400: loss = 0.0000028849547
+loss_val 0.0000028849547
+elapsed 25.904512
+Iteration 6, new_neuron_num: 103
+Epoch 0: loss = 0.0000028843706
+Epoch 50: loss = 0.0002476564
+Epoch 100: loss = 0.000019117295
+Epoch 150: loss = 0.0000032681896
+Epoch 200: loss = 0.000002885742
+Epoch 250: loss = 0.000002884419
+Epoch 300: loss = 0.0000028850902
+Epoch 350: loss = 0.0000028859793
+Epoch 400: loss = 0.0000028865916
+loss_val 0.0000028865916
+elapsed 33.2069
+Iteration 7, new_neuron_num: 103
+Epoch 0: loss = 0.000002884609
+Epoch 50: loss = 0.00022120494
+Epoch 100: loss = 0.000018404686
+Epoch 150: loss = 0.0000032401283
+Epoch 200: loss = 0.0000028857364
+Epoch 250: loss = 0.000002884467
+Epoch 300: loss = 0.0000028845857
+Epoch 350: loss = 0.000002884593
+Epoch 400: loss = 0.000002884483
+loss_val 0.000002884483
+elapsed 40.972347
+Iteration 8, new_neuron_num: 104
+Epoch 0: loss = 0.0000028837699
+Epoch 50: loss = 0.0002936369
+Epoch 100: loss = 0.000021857995
+Epoch 150: loss = 0.0000030625677
+Epoch 200: loss = 0.0000028842485
+Epoch 250: loss = 0.000002883642
+Epoch 300: loss = 0.0000028838008
+Epoch 350: loss = 0.0000028840225
+Epoch 400: loss = 0.0000028842894
+loss_val 0.0000028842894
+elapsed 49.12581
+Iteration 9, new_neuron_num: 101
+Epoch 0: loss = 0.0000028833213
+Epoch 50: loss = 0.00028736913
+Epoch 100: loss = 0.000022603497
+Epoch 150: loss = 0.000003211334
+Epoch 200: loss = 0.0000029059663
+Epoch 250: loss = 0.0000029048863
+Epoch 300: loss = 0.0000029045648
+Epoch 350: loss = 0.0000029029784
+Epoch 400: loss = 0.0000029011364
+loss_val 0.0000029011364
+elapsed 52.29459
+Iteration 10, new_neuron_num: 353
+Epoch 0: loss = 0.0000029076816
+Epoch 50: loss = 0.0003670771
+Epoch 100: loss = 0.000022741307
+Epoch 150: loss = 0.000003419566
+Epoch 200: loss = 0.0000028864565
+Epoch 250: loss = 0.0000028851327
+Epoch 300: loss = 0.000002884662
+Epoch 350: loss = 0.000002883931
+Epoch 400: loss = 0.000002883724
+loss_val 0.000002883724
+elapsed 58.541508
+Creating Network
+Load Dataset
+Iteration 0, new_neuron_num: 86
+Epoch 0: loss = 0.030814359
+Epoch 50: loss = 0.18751718
+Epoch 100: loss = 0.044155385
+Epoch 150: loss = 0.038310733
+Epoch 200: loss = 0.03498157
+Epoch 250: loss = 0.032469593
+Epoch 300: loss = 0.030434055
+Epoch 350: loss = 0.028715221
+Epoch 400: loss = 0.027224261
+Epoch 450: loss = 0.025906397
+Epoch 500: loss = 0.02472531
+Epoch 550: loss = 0.023655547
+Epoch 600: loss = 0.02267851
+Epoch 650: loss = 0.02178015
+Epoch 700: loss = 0.020949552
+Epoch 750: loss = 0.020178052
+Epoch 800: loss = 0.019458631
+Epoch 850: loss = 0.018785512
+Epoch 900: loss = 0.018153861
+Epoch 950: loss = 0.017559601
+loss_val 0.016817275
+elapsed 13.106097
+Iteration 1, new_neuron_num: 101
+Epoch 0: loss = 0.02101705
+Epoch 50: loss = 0.089449346
+Epoch 100: loss = 0.055443257
+Epoch 150: loss = 0.045495275
+Epoch 200: loss = 0.039758123
+Epoch 250: loss = 0.035128072
+Epoch 300: loss = 0.032115262
+Epoch 350: loss = 0.028666856
+Epoch 400: loss = 0.025746234
+Epoch 450: loss = 0.023644587
+Epoch 500: loss = 0.021588108
+Epoch 550: loss = 0.01918816
+Epoch 600: loss = 0.016848663
+Epoch 650: loss = 0.0149716325
+Epoch 700: loss = 0.013287835
+Epoch 750: loss = 0.011656321
+Epoch 800: loss = 0.010420603
+Epoch 850: loss = 0.009570285
+Epoch 900: loss = 0.008850833
+Epoch 950: loss = 0.008135324
+loss_val 0.011614815
+elapsed 18.990267
+Iteration 2, new_neuron_num: 102
+Epoch 0: loss = 0.008211185
+Epoch 50: loss = 0.051811017
+Epoch 100: loss = 0.05290502
+Epoch 150: loss = 0.052876554
+Epoch 200: loss = 0.052841306
+Epoch 250: loss = 0.05280516
+Epoch 300: loss = 0.05276812
+Epoch 350: loss = 0.052730173
+Epoch 400: loss = 0.052691292
+loss_val 0.052691292
+elapsed 11.177104
+Iteration 3, new_neuron_num: 101
+Epoch 0: loss = 0.052690502
+Epoch 50: loss = 0.0009188772
+Epoch 100: loss = 0.00021360705
+Epoch 150: loss = 0.000014407029
+Epoch 200: loss = 0.0000029111131
+Epoch 250: loss = 0.0000028851684
+Epoch 300: loss = 0.0000028837128
+Epoch 350: loss = 0.0000028836744
+Epoch 400: loss = 0.000002883829
+loss_val 0.000002883829
+elapsed 15.578878
+Iteration 4, new_neuron_num: 102
+Epoch 0: loss = 0.0000028840102
+Epoch 50: loss = 0.00022592208
+Epoch 100: loss = 0.000012942053
+Epoch 150: loss = 0.000002987452
+Epoch 200: loss = 0.0000028871095
+Epoch 250: loss = 0.0000028851578
+Epoch 300: loss = 0.0000028852683
+Epoch 350: loss = 0.0000028850232
+Epoch 400: loss = 0.0000028846703
+loss_val 0.0000028846703
+elapsed 21.209265
+Iteration 5, new_neuron_num: 103
+Epoch 0: loss = 0.0000028859442
+Epoch 50: loss = 0.00023715518
+Epoch 100: loss = 0.000024604373
+Epoch 150: loss = 0.0000032236517
+Epoch 200: loss = 0.0000028845204
+Epoch 250: loss = 0.0000028842512
+Epoch 300: loss = 0.0000028839668
+Epoch 350: loss = 0.0000028837326
+Epoch 400: loss = 0.0000028833947
+loss_val 0.0000028833947
+elapsed 26.396475
+Iteration 6, new_neuron_num: 102
+Epoch 0: loss = 0.0000028837046
+Epoch 50: loss = 0.0002993052
+Epoch 100: loss = 0.00001693508
+Epoch 150: loss = 0.0000030755102
+Epoch 200: loss = 0.0000028867769
+Epoch 250: loss = 0.000002883848
+Epoch 300: loss = 0.0000028840118
+Epoch 350: loss = 0.0000028840589
+Epoch 400: loss = 0.0000028841637
+loss_val 0.0000028841637
+elapsed 32.2982
+Iteration 7, new_neuron_num: 103
+Epoch 0: loss = 0.0000028833986
+Epoch 50: loss = 0.00031264583
+Epoch 100: loss = 0.000018209314
+Epoch 150: loss = 0.0000031719778
+Epoch 200: loss = 0.000002885536
+Epoch 250: loss = 0.000002883512
+Epoch 300: loss = 0.0000028837494
+Epoch 350: loss = 0.0000028839345
+Epoch 400: loss = 0.0000028841607
+loss_val 0.0000028841607
+elapsed 40.473755
+Iteration 8, new_neuron_num: 103
+Epoch 0: loss = 0.00000288325
+Epoch 50: loss = 0.00026866441
+Epoch 100: loss = 0.00001904257
+Epoch 150: loss = 0.0000031855182
+Epoch 200: loss = 0.0000028852514
+Epoch 250: loss = 0.0000028839675
+Epoch 300: loss = 0.0000028840207
+Epoch 350: loss = 0.0000028841698
+Epoch 400: loss = 0.0000028844242
+loss_val 0.0000028844242
+elapsed 46.68681
+Iteration 9, new_neuron_num: 104
+Epoch 0: loss = 0.0000028839324
+Epoch 50: loss = 0.00027637757
+Epoch 100: loss = 0.00001963777
+Epoch 150: loss = 0.0000034443042
+Epoch 200: loss = 0.000002909386
+Epoch 250: loss = 0.0000029130429
+Epoch 300: loss = 0.0000029151836
+Epoch 350: loss = 0.0000029158582
+Epoch 400: loss = 0.000002916007
+loss_val 0.000002916007
+elapsed 50.41935
+Iteration 10, new_neuron_num: 617
+Epoch 0: loss = 0.0000029140297
+Epoch 50: loss = 0.0010208456
+Epoch 100: loss = 0.0001956348
+Epoch 150: loss = 0.0000370538
+Epoch 200: loss = 0.000004708827
+Epoch 250: loss = 0.00001668338
+Epoch 300: loss = 0.000009585721
+Epoch 350: loss = 0.000002897107
+Epoch 400: loss = 0.0000029843102
+Epoch 450: loss = 0.000002997347
+loss_val 0.000002997347
+elapsed 62.988552
+Creating Network
+Load Dataset
+Iteration 0, new_neuron_num: 84
+Epoch 0: loss = 0.039604507
+Epoch 50: loss = 0.7403529
+Epoch 100: loss = 0.19865881
+Epoch 150: loss = 0.15634988
+Epoch 200: loss = 0.1392395
+Epoch 250: loss = 0.12862349
+Epoch 300: loss = 0.12096149
+Epoch 350: loss = 0.11494748
+Epoch 400: loss = 0.109967664
+Epoch 450: loss = 0.10569523
+Epoch 500: loss = 0.10193901
+Epoch 550: loss = 0.09857799
+Epoch 600: loss = 0.09553064
+Epoch 650: loss = 0.09273919
+Epoch 700: loss = 0.090161055
+Epoch 750: loss = 0.08776388
+Epoch 800: loss = 0.08552242
+Epoch 850: loss = 0.083416596
+Epoch 900: loss = 0.08143009
+Epoch 950: loss = 0.07954948
+loss_val 0.07985348
+elapsed 13.139428
+Iteration 1, new_neuron_num: 100
+Epoch 0: loss = 0.088365555
+Epoch 50: loss = 0.017642343
+Epoch 100: loss = 0.0011308359
+Epoch 150: loss = 0.00005020735
+Epoch 200: loss = 0.000006896645
+Epoch 250: loss = 0.000002897219
+Epoch 300: loss = 0.000002883658
+Epoch 350: loss = 0.00000288331
+Epoch 400: loss = 0.0000028833247
+loss_val 0.0000028833247
+elapsed 7.57363
+Iteration 2, new_neuron_num: 104
+Epoch 0: loss = 0.0000028833174
+Epoch 50: loss = 0.000220922
+Epoch 100: loss = 0.000012306488
+Epoch 150: loss = 0.0000031635632
+Epoch 200: loss = 0.0000028859008
+Epoch 250: loss = 0.0000028845775
+Epoch 300: loss = 0.0000028853933
+Epoch 350: loss = 0.0000028862296
+Epoch 400: loss = 0.0000028868587
+loss_val 0.0000028868587
+elapsed 10.888577
+Iteration 3, new_neuron_num: 103
+Epoch 0: loss = 0.000002883991
+Epoch 50: loss = 0.00024588464
+Epoch 100: loss = 0.000020467458
+Epoch 150: loss = 0.000003137267
+Epoch 200: loss = 0.0000028855536
+Epoch 250: loss = 0.0000028841725
+Epoch 300: loss = 0.000002884411
+Epoch 350: loss = 0.000002884903
+Epoch 400: loss = 0.0000028856414
+loss_val 0.0000028856414
+elapsed 15.493692
+Iteration 4, new_neuron_num: 103
+Epoch 0: loss = 0.0000028847705
+Epoch 50: loss = 0.00023255192
+Epoch 100: loss = 0.000017481127
+Epoch 150: loss = 0.0000031725535
+Epoch 200: loss = 0.0000028864497
+Epoch 250: loss = 0.0000028842317
+Epoch 300: loss = 0.000002884229
+Epoch 350: loss = 0.0000028841241
+Epoch 400: loss = 0.0000028840345
+loss_val 0.0000028840345
+elapsed 21.12349
+Iteration 5, new_neuron_num: 105
+Epoch 0: loss = 0.0000028838351
+Epoch 50: loss = 0.00019880898
+Epoch 100: loss = 0.000016595779
+Epoch 150: loss = 0.0000031176173
+Epoch 200: loss = 0.0000028841691
+Epoch 250: loss = 0.0000028842835
+Epoch 300: loss = 0.0000028843003
+Epoch 350: loss = 0.0000028842544
+Epoch 400: loss = 0.0000028840907
+loss_val 0.0000028840907
+elapsed 26.003876
+Iteration 6, new_neuron_num: 104
+Epoch 0: loss = 0.0000028836946
+Epoch 50: loss = 0.00028458345
+Epoch 100: loss = 0.000017857157
+Epoch 150: loss = 0.0000032368757
+Epoch 200: loss = 0.0000028839147
+Epoch 250: loss = 0.0000028841532
+Epoch 300: loss = 0.0000028843772
+Epoch 350: loss = 0.0000028849379
+Epoch 400: loss = 0.0000028857085
+loss_val 0.0000028857085
+elapsed 33.341545
+Iteration 7, new_neuron_num: 105
+Epoch 0: loss = 0.0000028848574
+Epoch 50: loss = 0.0002330513
+Epoch 100: loss = 0.00001934966
+Epoch 150: loss = 0.0000030754502
+Epoch 200: loss = 0.000002885611
+Epoch 250: loss = 0.0000028844793
+Epoch 300: loss = 0.0000028846541
+Epoch 350: loss = 0.0000028846566
+Epoch 400: loss = 0.000002884591
+loss_val 0.000002884591
+elapsed 39.618282
+Iteration 8, new_neuron_num: 108
+Epoch 0: loss = 0.0000028838506
+Epoch 50: loss = 0.00028879967
+Epoch 100: loss = 0.000018543536
+Epoch 150: loss = 0.0000032709745
+Epoch 200: loss = 0.0000028862821
+Epoch 250: loss = 0.0000028838847
+Epoch 300: loss = 0.0000028838228
+Epoch 350: loss = 0.0000028838365
+Epoch 400: loss = 0.0000028839088
+loss_val 0.0000028839088
+elapsed 46.443394
+Iteration 9, new_neuron_num: 105
+Epoch 0: loss = 0.0000028840716
+Epoch 50: loss = 0.00029185484
+Epoch 100: loss = 0.000016251724
+Epoch 150: loss = 0.000003243009
+Epoch 200: loss = 0.0000028945344
+Epoch 250: loss = 0.000002902565
+Epoch 300: loss = 0.0000029030903
+Epoch 350: loss = 0.0000029012876
+Epoch 400: loss = 0.0000028982201
+loss_val 0.0000028982201
+elapsed 50.722633
+Iteration 10, new_neuron_num: 560
+Epoch 0: loss = 0.0000028846541
+Epoch 50: loss = 0.00029522544
+Epoch 100: loss = 0.00002487093
+Epoch 150: loss = 0.000003170213
+Epoch 200: loss = 0.0000029040364
+Epoch 250: loss = 0.0000029011633
+Epoch 300: loss = 0.0000028997918
+Epoch 350: loss = 0.0000028974666
+Epoch 400: loss = 0.0000028945717
+loss_val 0.0000028945717
+elapsed 59.798405
+Creating Network
+Load Dataset
+Iteration 0, new_neuron_num: 84
+Epoch 0: loss = 0.040000778
+Epoch 50: loss = 13.751902
+Epoch 100: loss = 4.865892
+Epoch 150: loss = 1.5790241
+Epoch 200: loss = 0.3639401
+Epoch 250: loss = 0.14636354
+Epoch 300: loss = 0.101161085
+Epoch 350: loss = 0.08210001
+Epoch 400: loss = 0.07062808
+Epoch 450: loss = 0.06246401
+Epoch 500: loss = 0.056122202
+Epoch 550: loss = 0.050953787
+Epoch 600: loss = 0.046627812
+Epoch 650: loss = 0.04295369
+Epoch 700: loss = 0.03980985
+Epoch 750: loss = 0.037111416
+Epoch 800: loss = 0.034794245
+Epoch 850: loss = 0.032806795
+Epoch 900: loss = 0.031105699
+Epoch 950: loss = 0.02965328
+loss_val 0.029158404
+elapsed 12.915851
+Iteration 1, new_neuron_num: 101
+Epoch 0: loss = 0.02991534
+Epoch 50: loss = 0.17787792
+Epoch 100: loss = 0.05428169
+Epoch 150: loss = 0.04353351
+Epoch 200: loss = 0.03824995
+Epoch 250: loss = 0.034666795
+Epoch 300: loss = 0.031942498
+Epoch 350: loss = 0.029744297
+Epoch 400: loss = 0.027906157
+Epoch 450: loss = 0.026331788
+Epoch 500: loss = 0.024959516
+Epoch 550: loss = 0.0237471
+Epoch 600: loss = 0.02266416
+Epoch 650: loss = 0.021688078
+Epoch 700: loss = 0.020801524
+Epoch 750: loss = 0.019990927
+Epoch 800: loss = 0.019245464
+Epoch 850: loss = 0.018556384
+Epoch 900: loss = 0.017916506
+Epoch 950: loss = 0.017319882
+loss_val 0.016882481
+elapsed 18.408278
+Iteration 2, new_neuron_num: 101
+Epoch 0: loss = 0.02816287
+Epoch 50: loss = 0.024799647
+Epoch 100: loss = 0.020712003
+Epoch 150: loss = 0.018677015
+Epoch 200: loss = 0.016798187
+Epoch 250: loss = 0.015067085
+Epoch 300: loss = 0.013476463
+Epoch 350: loss = 0.012019041
+Epoch 400: loss = 0.010687522
+Epoch 450: loss = 0.009474663
+Epoch 500: loss = 0.008373253
+Epoch 550: loss = 0.007376193
+Epoch 600: loss = 0.006476504
+Epoch 650: loss = 0.0056673614
+Epoch 700: loss = 0.004942126
+Epoch 750: loss = 0.004294363
+Epoch 800: loss = 0.0037178716
+Epoch 850: loss = 0.0032066947
+Epoch 900: loss = 0.002755146
+Epoch 950: loss = 0.002357818
+loss_val 0.0020161278
+elapsed 27.747524
+Iteration 3, new_neuron_num: 101
+Epoch 0: loss = 0.0020095923
+Epoch 50: loss = 0.00019852958
+Epoch 100: loss = 0.000016249398
+Epoch 150: loss = 0.0000031767077
+Epoch 200: loss = 0.0000028847992
+Epoch 250: loss = 0.0000028843529
+Epoch 300: loss = 0.0000028850136
+Epoch 350: loss = 0.000002885751
+Epoch 400: loss = 0.0000028863737
+loss_val 0.0000028863737
+elapsed 15.228463
+Iteration 4, new_neuron_num: 101
+Epoch 0: loss = 0.0000028847378
+Epoch 50: loss = 0.00024507506
+Epoch 100: loss = 0.000022314314
+Epoch 150: loss = 0.0000032250732
+Epoch 200: loss = 0.0000028870802
+Epoch 250: loss = 0.0000028844886
+Epoch 300: loss = 0.0000028845109
+Epoch 350: loss = 0.0000028846343
+Epoch 400: loss = 0.0000028849095
+loss_val 0.0000028849095
+elapsed 21.817122
+Iteration 5, new_neuron_num: 103
+Epoch 0: loss = 0.0000028843267
+Epoch 50: loss = 0.00028113666
+Epoch 100: loss = 0.00002305746
+Epoch 150: loss = 0.0000029853597
+Epoch 200: loss = 0.0000028870675
+Epoch 250: loss = 0.0000028845811
+Epoch 300: loss = 0.000002884378
+Epoch 350: loss = 0.0000028841307
+Epoch 400: loss = 0.0000028838836
+loss_val 0.0000028838836
+elapsed 26.83646
+Iteration 6, new_neuron_num: 106
+Epoch 0: loss = 0.0000028839008
+Epoch 50: loss = 0.0002709988
+Epoch 100: loss = 0.000018613533
+Epoch 150: loss = 0.0000032495511
+Epoch 200: loss = 0.0000028844963
+Epoch 250: loss = 0.0000028843156
+Epoch 300: loss = 0.0000028841407
+Epoch 350: loss = 0.0000028840022
+Epoch 400: loss = 0.0000028837094
+loss_val 0.0000028837094
+elapsed 33.70499
+Iteration 7, new_neuron_num: 103
+Epoch 0: loss = 0.000002883604
+Epoch 50: loss = 0.00030664288
+Epoch 100: loss = 0.000021811617
+Epoch 150: loss = 0.0000033801741
+Epoch 200: loss = 0.0000028844124
+Epoch 250: loss = 0.000002884074
+Epoch 300: loss = 0.000002884241
+Epoch 350: loss = 0.0000028845118
+Epoch 400: loss = 0.00000288478
+loss_val 0.00000288478
+elapsed 38.875828
+Iteration 8, new_neuron_num: 103
+Epoch 0: loss = 0.0000028832367
+Epoch 50: loss = 0.00023396117
+Epoch 100: loss = 0.00001602893
+Epoch 150: loss = 0.0000031569245
+Epoch 200: loss = 0.0000028876489
+Epoch 250: loss = 0.0000028847492
+Epoch 300: loss = 0.000002884812
+Epoch 350: loss = 0.0000028847571
+Epoch 400: loss = 0.0000028845823
+loss_val 0.0000028845823
+elapsed 48.462452
+Iteration 9, new_neuron_num: 104
+Epoch 0: loss = 0.0000028845611
+Epoch 50: loss = 0.0003542167
+Epoch 100: loss = 0.000024401901
+Epoch 150: loss = 0.0000034947695
+Epoch 200: loss = 0.0000029123523
+Epoch 250: loss = 0.0000029063776
+Epoch 300: loss = 0.0000029039718
+Epoch 350: loss = 0.0000029027342
+Epoch 400: loss = 0.0000029037224
+loss_val 0.0000029037224
+elapsed 52.126965
+Iteration 10, new_neuron_num: 408
+Epoch 0: loss = 0.0000029157934
+Epoch 50: loss = 0.00021667457
+Epoch 100: loss = 0.000012759132
+Epoch 150: loss = 0.0000032390435
+Epoch 200: loss = 0.000002892668
+Epoch 250: loss = 0.0000028940585
+Epoch 300: loss = 0.000002894432
+Epoch 350: loss = 0.0000028936959
+Epoch 400: loss = 0.0000028923603
+loss_val 0.0000028923603
+elapsed 57.598892
+Creating Network
+Load Dataset
+Iteration 0, new_neuron_num: 82
+Epoch 0: loss = 0.03377207
+Epoch 50: loss = 0.16923523
+Epoch 100: loss = 0.034875948
+Epoch 150: loss = 0.027764222
+Epoch 200: loss = 0.024013227
+Epoch 250: loss = 0.021444442
+Epoch 300: loss = 0.019515412
+Epoch 350: loss = 0.01798672
+Epoch 400: loss = 0.016730959
+Epoch 450: loss = 0.015672531
+Epoch 500: loss = 0.014762991
+Epoch 550: loss = 0.013969494
+Epoch 600: loss = 0.013268746
+Epoch 650: loss = 0.012643628
+Epoch 700: loss = 0.012081183
+Epoch 750: loss = 0.011571373
+Epoch 800: loss = 0.011106266
+Epoch 850: loss = 0.010679491
+Epoch 900: loss = 0.010285858
+Epoch 950: loss = 0.009921101
+loss_val 0.009693881
+elapsed 13.341913
+Iteration 1, new_neuron_num: 101
+Epoch 0: loss = 0.013257645
+Epoch 50: loss = 0.024199368
+Epoch 100: loss = 0.0038214887
+Epoch 150: loss = 0.0031201218
+Epoch 200: loss = 0.0028469989
+Epoch 250: loss = 0.002647947
+Epoch 300: loss = 0.0024890038
+Epoch 350: loss = 0.00235558
+Epoch 400: loss = 0.0022398303
+Epoch 450: loss = 0.0021370482
+Epoch 500: loss = 0.0020442016
+Epoch 550: loss = 0.0019592247
+Epoch 600: loss = 0.0018806619
+Epoch 650: loss = 0.0018074571
+Epoch 700: loss = 0.0017388307
+Epoch 750: loss = 0.0016741934
+Epoch 800: loss = 0.0016130966
+Epoch 850: loss = 0.0015551919
+Epoch 900: loss = 0.0015002032
+Epoch 950: loss = 0.0014479086
+loss_val 0.001625853
+elapsed 18.961992
+Iteration 2, new_neuron_num: 101
+Epoch 0: loss = 0.0014061071
+Epoch 50: loss = 0.00024466327
+Epoch 100: loss = 0.00001436686
+Epoch 150: loss = 0.0000034107316
+Epoch 200: loss = 0.0000028885204
+Epoch 250: loss = 0.0000028851214
+Epoch 300: loss = 0.0000028850015
+Epoch 350: loss = 0.0000028846675
+Epoch 400: loss = 0.0000028842662
+loss_val 0.0000028842662
+elapsed 11.01553
+Iteration 3, new_neuron_num: 100
+Epoch 0: loss = 0.0000028833504
+Epoch 50: loss = 0.00028643478
+Epoch 100: loss = 0.00001613682
+Epoch 150: loss = 0.0000030635395
+Epoch 200: loss = 0.0000028845006
+Epoch 250: loss = 0.0000028857849
+Epoch 300: loss = 0.0000028864697
+Epoch 350: loss = 0.0000028875343
+Epoch 400: loss = 0.000002888233
+loss_val 0.000002888233
+elapsed 15.536388
+Iteration 4, new_neuron_num: 102
+Epoch 0: loss = 0.0000028848274
+Epoch 50: loss = 0.0002408018
+Epoch 100: loss = 0.000018866896
+Epoch 150: loss = 0.0000031464588
+Epoch 200: loss = 0.0000028846343
+Epoch 250: loss = 0.0000028844788
+Epoch 300: loss = 0.0000028846682
+Epoch 350: loss = 0.0000028848644
+Epoch 400: loss = 0.0000028851214
+loss_val 0.0000028851214
+elapsed 20.381289
+Iteration 5, new_neuron_num: 102
+Epoch 0: loss = 0.0000028836348
+Epoch 50: loss = 0.00026717113
+Epoch 100: loss = 0.000020233023
+Epoch 150: loss = 0.0000031262668
+Epoch 200: loss = 0.0000028848392
+Epoch 250: loss = 0.000002884969
+Epoch 300: loss = 0.0000028849845
+Epoch 350: loss = 0.0000028849067
+Epoch 400: loss = 0.000002884761
+loss_val 0.000002884761
+elapsed 24.964003
+Iteration 6, new_neuron_num: 104
+Epoch 0: loss = 0.0000028842255
+Epoch 50: loss = 0.00022948979
+Epoch 100: loss = 0.000017431728
+Epoch 150: loss = 0.0000030772533
+Epoch 200: loss = 0.0000028845946
+Epoch 250: loss = 0.0000028843406
+Epoch 300: loss = 0.000002884466
+Epoch 350: loss = 0.0000028847319
+Epoch 400: loss = 0.0000028851719
+loss_val 0.0000028851719
+elapsed 32.059135
+Iteration 7, new_neuron_num: 102
+Epoch 0: loss = 0.000002885307
+Epoch 50: loss = 0.00030267597
+Epoch 100: loss = 0.000018824701
+Epoch 150: loss = 0.0000032177027
+Epoch 200: loss = 0.0000028848167
+Epoch 250: loss = 0.000002883971
+Epoch 300: loss = 0.000002883954
+Epoch 350: loss = 0.0000028841548
+Epoch 400: loss = 0.0000028843908
+loss_val 0.0000028843908
+elapsed 39.29158
+Iteration 8, new_neuron_num: 103
+Epoch 0: loss = 0.0000028836978
+Epoch 50: loss = 0.00028960753
+Epoch 100: loss = 0.000019648605
+Epoch 150: loss = 0.000003238595
+Epoch 200: loss = 0.0000028855156
+Epoch 250: loss = 0.000002884204
+Epoch 300: loss = 0.0000028841978
+Epoch 350: loss = 0.0000028843733
+Epoch 400: loss = 0.0000028846143
+loss_val 0.0000028846143
+elapsed 47.075115
+Iteration 9, new_neuron_num: 102
+Epoch 0: loss = 0.000002884094
+Epoch 50: loss = 0.00031136136
+Epoch 100: loss = 0.000013518542
+Epoch 150: loss = 0.000003339314
+Epoch 200: loss = 0.0000029008029
+Epoch 250: loss = 0.0000028915135
+Epoch 300: loss = 0.0000028895477
+Epoch 350: loss = 0.0000028876345
+Epoch 400: loss = 0.0000028859652
+loss_val 0.0000028859652
+elapsed 51.108402
+Iteration 10, new_neuron_num: 350
+Epoch 0: loss = 0.0000028938216
+Epoch 50: loss = 0.00038686936
+Epoch 100: loss = 0.000027994394
+Epoch 150: loss = 0.0000032202288
+Epoch 200: loss = 0.0000029046248
+Epoch 250: loss = 0.0000028990985
+Epoch 300: loss = 0.000002896056
+Epoch 350: loss = 0.000002893776
+Epoch 400: loss = 0.0000028920588
+loss_val 0.0000028920588
+elapsed 59.703514
+Creating Network
+Load Dataset
+Iteration 0, new_neuron_num: 83
+Epoch 0: loss = 0.037918594
+Epoch 50: loss = 0.98919886
+Epoch 100: loss = 0.37423292
+Epoch 150: loss = 0.30652705
+Epoch 200: loss = 0.27510068
+Epoch 250: loss = 0.25291127
+Epoch 300: loss = 0.23523366
+Epoch 350: loss = 0.22193708
+Epoch 400: loss = 0.21127802
+Epoch 450: loss = 0.20068327
+Epoch 500: loss = 0.19232926
+Epoch 550: loss = 0.18511012
+Epoch 600: loss = 0.1783831
+Epoch 650: loss = 0.17196792
+Epoch 700: loss = 0.16590586
+Epoch 750: loss = 0.16038771
+Epoch 800: loss = 0.1555819
+Epoch 850: loss = 0.1514324
+Epoch 900: loss = 0.1477554
+Epoch 950: loss = 0.14439905
+loss_val 0.14178748
+elapsed 13.322651
+Iteration 1, new_neuron_num: 101
+Epoch 0: loss = 0.14183435
+Epoch 50: loss = 0.16032478
+Epoch 100: loss = 0.11042774
+Epoch 150: loss = 0.08880355
+Epoch 200: loss = 0.072197005
+Epoch 250: loss = 0.06280882
+Epoch 300: loss = 0.05660424
+Epoch 350: loss = 0.051946457
+Epoch 400: loss = 0.048224416
+Epoch 450: loss = 0.045112725
+Epoch 500: loss = 0.042406816
+Epoch 550: loss = 0.039973527
+Epoch 600: loss = 0.037725653
+Epoch 650: loss = 0.035606306
+Epoch 700: loss = 0.03358013
+Epoch 750: loss = 0.031628065
+Epoch 800: loss = 0.029743573
+Epoch 850: loss = 0.02792933
+Epoch 900: loss = 0.026193568
+Epoch 950: loss = 0.024546482
+loss_val 0.021385564
+elapsed 19.322432
+Iteration 2, new_neuron_num: 103
+Epoch 0: loss = 0.022975773
+Epoch 50: loss = 0.00035353092
+Epoch 100: loss = 0.000032868724
+Epoch 150: loss = 0.0000034356503
+Epoch 200: loss = 0.0000028878069
+Epoch 250: loss = 0.000002884282
+Epoch 300: loss = 0.0000028842107
+Epoch 350: loss = 0.000002884385
+Epoch 400: loss = 0.0000028846798
+loss_val 0.0000028846798
+elapsed 10.758916
+Iteration 3, new_neuron_num: 102
+Epoch 0: loss = 0.0000028849379
+Epoch 50: loss = 0.00027135227
+Epoch 100: loss = 0.000018444702
+Epoch 150: loss = 0.000003172704
+Epoch 200: loss = 0.0000028868303
+Epoch 250: loss = 0.0000028843428
+Epoch 300: loss = 0.0000028846537
+Epoch 350: loss = 0.0000028849101
+Epoch 400: loss = 0.0000028853117
+loss_val 0.0000028853117
+elapsed 15.226565
+Iteration 4, new_neuron_num: 102
+Epoch 0: loss = 0.0000028843767
+Epoch 50: loss = 0.0002492127
+Epoch 100: loss = 0.000013022741
+Epoch 150: loss = 0.0000031688976
+Epoch 200: loss = 0.0000028857264
+Epoch 250: loss = 0.0000028844295
+Epoch 300: loss = 0.0000028844993
+Epoch 350: loss = 0.0000028846964
+Epoch 400: loss = 0.0000028848538
+loss_val 0.0000028848538
+elapsed 20.41788
+Iteration 5, new_neuron_num: 104
+Epoch 0: loss = 0.0000028833215
+Epoch 50: loss = 0.00023916755
+Epoch 100: loss = 0.000016035521
+Epoch 150: loss = 0.0000031905
+Epoch 200: loss = 0.000002884995
+Epoch 250: loss = 0.0000028843024
+Epoch 300: loss = 0.0000028844477
+Epoch 350: loss = 0.0000028844931
+Epoch 400: loss = 0.000002884431
+loss_val 0.000002884431
+elapsed 26.803238
+Iteration 6, new_neuron_num: 103
+Epoch 0: loss = 0.0000028835514
+Epoch 50: loss = 0.00024654428
+Epoch 100: loss = 0.000019191451
+Epoch 150: loss = 0.0000032479668
+Epoch 200: loss = 0.0000028887412
+Epoch 250: loss = 0.000002884438
+Epoch 300: loss = 0.0000028845527
+Epoch 350: loss = 0.000002884485
+Epoch 400: loss = 0.0000028843972
+loss_val 0.0000028843972
+elapsed 31.539457
+Iteration 7, new_neuron_num: 102
+Epoch 0: loss = 0.000002884045
+Epoch 50: loss = 0.00030720132
+Epoch 100: loss = 0.00001870775
+Epoch 150: loss = 0.0000031442798
+Epoch 200: loss = 0.0000028841434
+Epoch 250: loss = 0.0000028835714
+Epoch 300: loss = 0.0000028837521
+Epoch 350: loss = 0.0000028839067
+Epoch 400: loss = 0.0000028840982
+loss_val 0.0000028840982
+elapsed 38.78526
+Iteration 8, new_neuron_num: 105
+Epoch 0: loss = 0.0000028832162
+Epoch 50: loss = 0.00029670968
+Epoch 100: loss = 0.000016766864
+Epoch 150: loss = 0.0000032541304
+Epoch 200: loss = 0.000002887934
+Epoch 250: loss = 0.000002883982
+Epoch 300: loss = 0.000002883856
+Epoch 350: loss = 0.0000028837665
+Epoch 400: loss = 0.0000028839613
+loss_val 0.0000028839613
+elapsed 46.480732
+Iteration 9, new_neuron_num: 103
+Epoch 0: loss = 0.0000028850518
+Epoch 50: loss = 0.00033990736
+Epoch 100: loss = 0.000021330938
+Epoch 150: loss = 0.000003401816
+Epoch 200: loss = 0.000002913755
+Epoch 250: loss = 0.0000029122496
+Epoch 300: loss = 0.0000029073926
+Epoch 350: loss = 0.0000029048392
+Epoch 400: loss = 0.0000029054304
+loss_val 0.0000029054304
+elapsed 50.6477
+Iteration 10, new_neuron_num: 414
+Epoch 0: loss = 0.0000029204978
+Epoch 50: loss = 0.00036177883
+Epoch 100: loss = 0.00002830899
+Epoch 150: loss = 0.0000032223682
+Epoch 200: loss = 0.000002905276
+Epoch 250: loss = 0.000002913412
+Epoch 300: loss = 0.0000029185048
+Epoch 350: loss = 0.0000029243558
+Epoch 400: loss = 0.0000029319158
+loss_val 0.0000029319158
+elapsed 56.448887
+Creating Network
+Load Dataset
+Iteration 0, new_neuron_num: 84
+Epoch 0: loss = 0.03143303
+Epoch 50: loss = 0.06545435
+Epoch 100: loss = 0.032427125
+Epoch 150: loss = 0.023842504
+Epoch 200: loss = 0.019489666
+Epoch 250: loss = 0.016739815
+Epoch 300: loss = 0.014808745
+Epoch 350: loss = 0.013354356
+Epoch 400: loss = 0.012204833
+Epoch 450: loss = 0.011265207
+Epoch 500: loss = 0.010478308
+Epoch 550: loss = 0.0098071145
+Epoch 600: loss = 0.0092261955
+Epoch 650: loss = 0.008717287
+Epoch 700: loss = 0.008266845
+Epoch 750: loss = 0.007864563
+Epoch 800: loss = 0.0075024595
+Epoch 850: loss = 0.0071742604
+Epoch 900: loss = 0.0068749636
+Epoch 950: loss = 0.0066005425
+loss_val 0.0063604824
+elapsed 12.93408
+Iteration 1, new_neuron_num: 101
+Epoch 0: loss = 0.012871057
+Epoch 50: loss = 2.727968
+Epoch 100: loss = 0.32423374
+Epoch 150: loss = 0.20701495
+Epoch 200: loss = 0.17016552
+Epoch 250: loss = 0.15136015
+Epoch 300: loss = 0.13897692
+Epoch 350: loss = 0.12985273
+Epoch 400: loss = 0.12277406
+Epoch 450: loss = 0.117123485
+Epoch 500: loss = 0.11252408
+Epoch 550: loss = 0.108720854
+Epoch 600: loss = 0.105532266
+Epoch 650: loss = 0.10282522
+Epoch 700: loss = 0.100500025
+Epoch 750: loss = 0.09848088
+Epoch 800: loss = 0.09670922
+Epoch 850: loss = 0.09513947
+Epoch 900: loss = 0.09373572
+Epoch 950: loss = 0.09246937
+loss_val 0.09165605
+elapsed 18.721699
+Iteration 2, new_neuron_num: 102
+Epoch 0: loss = 0.09134054
+Epoch 50: loss = 0.004156059
+Epoch 100: loss = 0.0005626257
+Epoch 150: loss = 0.0002556791
+Epoch 200: loss = 0.00024378386
+Epoch 250: loss = 0.00023449988
+Epoch 300: loss = 0.00022595681
+Epoch 350: loss = 0.00021807487
+Epoch 400: loss = 0.00021078919
+Epoch 450: loss = 0.00020403563
+Epoch 500: loss = 0.00019775354
+Epoch 550: loss = 0.00019188749
+Epoch 600: loss = 0.00018638927
+Epoch 650: loss = 0.00018121352
+Epoch 700: loss = 0.00017632412
+Epoch 750: loss = 0.00017168568
+Epoch 800: loss = 0.00016726881
+Epoch 850: loss = 0.0001630475
+Epoch 900: loss = 0.0001589989
+Epoch 950: loss = 0.00015510182
+loss_val 0.0001710575
+elapsed 25.778149
+Iteration 3, new_neuron_num: 103
+Epoch 0: loss = 0.00013593756
+Epoch 50: loss = 0.00023142858
+Epoch 100: loss = 0.000013807545
+Epoch 150: loss = 0.0000031542525
+Epoch 200: loss = 0.0000028848494
+Epoch 250: loss = 0.0000028856825
+Epoch 300: loss = 0.0000028859492
+Epoch 350: loss = 0.0000028862255
+Epoch 400: loss = 0.0000028862405
+loss_val 0.0000028862405
+elapsed 15.431475
+Iteration 4, new_neuron_num: 101
+Epoch 0: loss = 0.0000028833656
+Epoch 50: loss = 0.00023774328
+Epoch 100: loss = 0.000013569376
+Epoch 150: loss = 0.0000031248226
+Epoch 200: loss = 0.0000028873249
+Epoch 250: loss = 0.0000028850693
+Epoch 300: loss = 0.0000028857385
+Epoch 350: loss = 0.0000028867173
+Epoch 400: loss = 0.000002887511
+loss_val 0.000002887511
+elapsed 20.510063
+Iteration 5, new_neuron_num: 102
+Epoch 0: loss = 0.0000028846973
+Epoch 50: loss = 0.00022337881
+Epoch 100: loss = 0.000018900977
+Epoch 150: loss = 0.0000031980655
+Epoch 200: loss = 0.0000028863906
+Epoch 250: loss = 0.0000028846512
+Epoch 300: loss = 0.0000028848085
+Epoch 350: loss = 0.0000028845643
+Epoch 400: loss = 0.0000028841418
+loss_val 0.0000028841418
+elapsed 24.864683
+Iteration 6, new_neuron_num: 100
+Epoch 0: loss = 0.0000028840836
+Epoch 50: loss = 0.00023519382
+Epoch 100: loss = 0.000021276375
+Epoch 150: loss = 0.0000031892982
+Epoch 200: loss = 0.0000028872664
+Epoch 250: loss = 0.0000028845152
+Epoch 300: loss = 0.0000028844038
+Epoch 350: loss = 0.0000028841923
+Epoch 400: loss = 0.000002883877
+loss_val 0.000002883877
+elapsed 32.31296
+Iteration 7, new_neuron_num: 102
+Epoch 0: loss = 0.0000028841832
+Epoch 50: loss = 0.00020498046
+Epoch 100: loss = 0.00001513406
+Epoch 150: loss = 0.0000030771382
+Epoch 200: loss = 0.0000028862328
+Epoch 250: loss = 0.0000028843544
+Epoch 300: loss = 0.0000028849506
+Epoch 350: loss = 0.0000028857528
+Epoch 400: loss = 0.0000028864104
+loss_val 0.0000028864104
+elapsed 37.53982
+Iteration 8, new_neuron_num: 101
+Epoch 0: loss = 0.0000028842396
+Epoch 50: loss = 0.00022654205
+Epoch 100: loss = 0.000019089126
+Epoch 150: loss = 0.0000032074402
+Epoch 200: loss = 0.0000028868562
+Epoch 250: loss = 0.0000028837917
+Epoch 300: loss = 0.0000028838808
+Epoch 350: loss = 0.0000028839536
+Epoch 400: loss = 0.0000028841043
+loss_val 0.0000028841043
+elapsed 47.309032
+Iteration 9, new_neuron_num: 104
+Epoch 0: loss = 0.0000028840718
+Epoch 50: loss = 0.00027224366
+Epoch 100: loss = 0.00002267374
+Epoch 150: loss = 0.000003293869
+Epoch 200: loss = 0.0000029081607
+Epoch 250: loss = 0.0000029102332
+Epoch 300: loss = 0.0000029124349
+Epoch 350: loss = 0.000002913546
+Epoch 400: loss = 0.0000029140062
+loss_val 0.0000029140062
+elapsed 50.718735
+Iteration 10, new_neuron_num: 404
+Epoch 0: loss = 0.0000029107161
+Epoch 50: loss = 0.0003808873
+Epoch 100: loss = 0.000023831491
+Epoch 150: loss = 0.000003284107
+Epoch 200: loss = 0.0000029116038
+Epoch 250: loss = 0.000002912971
+Epoch 300: loss = 0.0000029144799
+Epoch 350: loss = 0.0000029203559
+Epoch 400: loss = 0.0000029303014
+loss_val 0.0000029303014
+elapsed 58.314407
+Creating Network
+Load Dataset
+Iteration 0, new_neuron_num: 82
+Epoch 0: loss = 0.03154173
+Epoch 50: loss = 0.15419598
+Epoch 100: loss = 0.042398825
+Epoch 150: loss = 0.032241654
+Epoch 200: loss = 0.029415064
+Epoch 250: loss = 0.027511204
+Epoch 300: loss = 0.02602528
+Epoch 350: loss = 0.024754751
+Epoch 400: loss = 0.023629945
+Epoch 450: loss = 0.022618087
+Epoch 500: loss = 0.021698292
+Epoch 550: loss = 0.020855494
+Epoch 600: loss = 0.020078259
+Epoch 650: loss = 0.019357646
+Epoch 700: loss = 0.018686485
+Epoch 750: loss = 0.018058939
+Epoch 800: loss = 0.017470177
+Epoch 850: loss = 0.01691615
+Epoch 900: loss = 0.016393417
+Epoch 950: loss = 0.015899036
+loss_val 0.015503646
+elapsed 12.93146
+Iteration 1, new_neuron_num: 104
+Epoch 0: loss = 0.018598437
+Epoch 50: loss = 0.121725
+Epoch 100: loss = 0.09517346
+Epoch 150: loss = 0.062275093
+Epoch 200: loss = 0.047929447
+Epoch 250: loss = 0.043451536
+Epoch 300: loss = 0.04033599
+Epoch 350: loss = 0.03747914
+Epoch 400: loss = 0.03478827
+Epoch 450: loss = 0.03224672
+Epoch 500: loss = 0.0298454
+Epoch 550: loss = 0.027577078
+Epoch 600: loss = 0.02543646
+Epoch 650: loss = 0.023418631
+Epoch 700: loss = 0.02151921
+Epoch 750: loss = 0.019734988
+Epoch 800: loss = 0.018064966
+Epoch 850: loss = 0.016511368
+Epoch 900: loss = 0.015077651
+Epoch 950: loss = 0.013757801
+loss_val 0.0130404215
+elapsed 18.994883
+Iteration 2, new_neuron_num: 102
+Epoch 0: loss = 0.012865286
+Epoch 50: loss = 7161.238
+Epoch 100: loss = 7013.616
+Epoch 150: loss = 6907.2896
+Epoch 200: loss = 6820.437
+Epoch 250: loss = 6743.0986
+Epoch 300: loss = 6673.264
+Epoch 350: loss = 6608.881
+Epoch 400: loss = 6548.088
+Epoch 450: loss = 6490.609
+Epoch 500: loss = 6435.955
+Epoch 550: loss = 6383.491
+Epoch 600: loss = 6332.7363
+Epoch 650: loss = 6283.483
+Epoch 700: loss = 6235.4595
+Epoch 750: loss = 6188.47
+Epoch 800: loss = 6142.5684
+Epoch 850: loss = 6097.457
+Epoch 900: loss = 6053.169
+Epoch 950: loss = 6009.6396
+loss_val 5967.1396
+elapsed 26.60412
+Iteration 3, new_neuron_num: 103
+Epoch 0: loss = 5959.7334
+Epoch 50: loss = 5747.556
+Epoch 100: loss = 5604.616
+Epoch 150: loss = 5493.439
+Epoch 200: loss = 5398.229
+Epoch 250: loss = 5312.8535
+Epoch 300: loss = 5234.0454
+Epoch 350: loss = 5159.844
+Epoch 400: loss = 5089.466
+Epoch 450: loss = 5006.244
+Epoch 500: loss = 4921.2266
+Epoch 550: loss = 4857.4634
+Epoch 600: loss = 4794.68
+Epoch 650: loss = 4733.195
+Epoch 700: loss = 4650.095
+Epoch 750: loss = 4561.7456
+Epoch 800: loss = 4501.7075
+Epoch 850: loss = 4441.952
+Epoch 900: loss = 4382.41
+Epoch 950: loss = 4323.748
+loss_val 4269.0757
+elapsed 38.061157
+Iteration 4, new_neuron_num: 101
+Epoch 0: loss = 4262.8364
+Epoch 50: loss = 3967.1946
+Epoch 100: loss = 3761.4446
+Epoch 150: loss = 3598.6401
+Epoch 200: loss = 3455.9072
+Epoch 250: loss = 3326.9517
+Epoch 300: loss = 3207.3699
+Epoch 350: loss = 3095.1328
+Epoch 400: loss = 2988.32
+Epoch 450: loss = 2885.773
+Epoch 500: loss = 2786.3518
+Epoch 550: loss = 2689.7327
+Epoch 600: loss = 2594.384
+Epoch 650: loss = 2498.6714
+Epoch 700: loss = 2404.0146
+Epoch 750: loss = 2311.1653
+Epoch 800: loss = 2219.7498
+Epoch 850: loss = 2129.7358
+Epoch 900: loss = 2040.6245
+Epoch 950: loss = 1952.6504
+loss_val 1875.7164
+elapsed 49.58763
+Iteration 5, new_neuron_num: 103
+Epoch 0: loss = 1883.2703
+Epoch 50: loss = 1241.706
+Epoch 100: loss = 785.2473
+Epoch 150: loss = 430.62363
+Epoch 200: loss = 174.79358
+Epoch 250: loss = 59.167107
+Epoch 300: loss = 26.522486
+Epoch 350: loss = 5.8701234
+Epoch 400: loss = 0.4251618
+Epoch 450: loss = 0.33228648
+Epoch 500: loss = 0.05034438
+Epoch 550: loss = 0.026428176
+Epoch 600: loss = 0.026302788
+loss_val 0.026302788
+elapsed 38.837624
+Iteration 6, new_neuron_num: 103
+Epoch 0: loss = 0.02622255
+Epoch 50: loss = 0.00021254753
+Epoch 100: loss = 0.000030101368
+Epoch 150: loss = 0.0000055313753
+Epoch 200: loss = 0.0000029457894
+Epoch 250: loss = 0.0000028856832
+Epoch 300: loss = 0.0000028848463
+Epoch 350: loss = 0.000002884584
+Epoch 400: loss = 0.0000028842503
+loss_val 0.0000028842503
+elapsed 32.96432
+Iteration 7, new_neuron_num: 103
+Epoch 0: loss = 0.000002884153
+Epoch 50: loss = 0.00023240218
+Epoch 100: loss = 0.000016757254
+Epoch 150: loss = 0.0000033750098
+Epoch 200: loss = 0.000002885091
+Epoch 250: loss = 0.0000028846573
+Epoch 300: loss = 0.0000028846973
+Epoch 350: loss = 0.0000028844984
+Epoch 400: loss = 0.0000028841494
+loss_val 0.0000028841494
+elapsed 38.25603
+Iteration 8, new_neuron_num: 105
+Epoch 0: loss = 0.0000028835912
+Epoch 50: loss = 0.00026677703
+Epoch 100: loss = 0.000025491923
+Epoch 150: loss = 0.0000031787422
+Epoch 200: loss = 0.0000028849288
+Epoch 250: loss = 0.0000028847571
+Epoch 300: loss = 0.000002885058
+Epoch 350: loss = 0.000002885517
+Epoch 400: loss = 0.0000028860252
+loss_val 0.0000028860252
+elapsed 46.559887
+Iteration 9, new_neuron_num: 101
+Epoch 0: loss = 0.0000028842844
+Epoch 50: loss = 0.0002998565
+Epoch 100: loss = 0.000016451975
+Epoch 150: loss = 0.0000031176362
+Epoch 200: loss = 0.0000028880147
+Epoch 250: loss = 0.0000028846862
+Epoch 300: loss = 0.000002884973
+Epoch 350: loss = 0.0000028856805
+Epoch 400: loss = 0.000002885508
+loss_val 0.000002885508
+elapsed 51.93551
+Iteration 10, new_neuron_num: 488
+Epoch 0: loss = 0.0000028839097
+Epoch 50: loss = 0.00029742476
+Epoch 100: loss = 0.000041825097
+Epoch 150: loss = 0.0000042632537
+Epoch 200: loss = 0.0000029242285
+Epoch 250: loss = 0.0000028902614
+Epoch 300: loss = 0.000002886449
+Epoch 350: loss = 0.0000028889474
+Epoch 400: loss = 0.0000028882596
+loss_val 0.0000028882596
+elapsed 58.79977
+Creating Network
+Load Dataset
+Iteration 0, new_neuron_num: 87
+Epoch 0: loss = 0.034400538
+Epoch 50: loss = 0.0999242
+Epoch 100: loss = 0.035095245
+Epoch 150: loss = 0.024281042
+Epoch 200: loss = 0.019401709
+Epoch 250: loss = 0.01640023
+Epoch 300: loss = 0.014330446
+Epoch 350: loss = 0.012801699
+Epoch 400: loss = 0.011617279
+Epoch 450: loss = 0.01066717
+Epoch 500: loss = 0.009884814
+Epoch 550: loss = 0.0092272805
+Epoch 600: loss = 0.008665428
+Epoch 650: loss = 0.008178655
+Epoch 700: loss = 0.007751937
+Epoch 750: loss = 0.0073740366
+Epoch 800: loss = 0.0070363884
+Epoch 850: loss = 0.0067323474
+Epoch 900: loss = 0.0064566946
+Epoch 950: loss = 0.006205258
+loss_val 0.0058973515
+elapsed 13.370916
+Iteration 1, new_neuron_num: 101
+Epoch 0: loss = 0.016452355
+Epoch 50: loss = 0.043279655
+Epoch 100: loss = 0.0047628204
+Epoch 150: loss = 0.0031568098
+Epoch 200: loss = 0.0029884274
+Epoch 250: loss = 0.0028372456
+Epoch 300: loss = 0.002692229
+Epoch 350: loss = 0.0025551328
+Epoch 400: loss = 0.002426981
+Epoch 450: loss = 0.0023081307
+Epoch 500: loss = 0.0021984354
+Epoch 550: loss = 0.0020974567
+Epoch 600: loss = 0.002004584
+Epoch 650: loss = 0.0019191374
+Epoch 700: loss = 0.0018404322
+Epoch 750: loss = 0.0017678082
+Epoch 800: loss = 0.0017006515
+Epoch 850: loss = 0.0016384084
+Epoch 900: loss = 0.0015805741
+Epoch 950: loss = 0.0015267017
+loss_val 0.0017115682
+elapsed 19.532446
+Iteration 2, new_neuron_num: 101
+Epoch 0: loss = 0.0014572365
+Epoch 50: loss = 0.00032133717
+Epoch 100: loss = 0.000024189716
+Epoch 150: loss = 0.0000034781685
+Epoch 200: loss = 0.0000028874433
+Epoch 250: loss = 0.0000028845268
+Epoch 300: loss = 0.0000028844006
+Epoch 350: loss = 0.00000288429
+Epoch 400: loss = 0.000002884208
+loss_val 0.000002884208
+elapsed 10.329115
+Iteration 3, new_neuron_num: 102
+Epoch 0: loss = 0.000002883988
+Epoch 50: loss = 0.00024981494
+Epoch 100: loss = 0.00002178128
+Epoch 150: loss = 0.0000033122851
+Epoch 200: loss = 0.0000028864893
+Epoch 250: loss = 0.0000028841216
+Epoch 300: loss = 0.000002884191
+Epoch 350: loss = 0.000002884118
+Epoch 400: loss = 0.0000028840789
+loss_val 0.0000028840789
+elapsed 15.183022
+Iteration 4, new_neuron_num: 102
+Epoch 0: loss = 0.0000028848685
+Epoch 50: loss = 0.00029123636
+Epoch 100: loss = 0.000018166798
+Epoch 150: loss = 0.0000032461066
+Epoch 200: loss = 0.0000028837514
+Epoch 250: loss = 0.0000028840327
+Epoch 300: loss = 0.0000028842978
+Epoch 350: loss = 0.000002884625
+Epoch 400: loss = 0.0000028848747
+loss_val 0.0000028848747
+elapsed 19.692163
+Iteration 5, new_neuron_num: 103
+Epoch 0: loss = 0.0000028831319
+Epoch 50: loss = 0.00028472426
+Epoch 100: loss = 0.000017901406
+Epoch 150: loss = 0.00000314419
+Epoch 200: loss = 0.0000028864254
+Epoch 250: loss = 0.0000028843017
+Epoch 300: loss = 0.0000028844322
+Epoch 350: loss = 0.0000028847276
+Epoch 400: loss = 0.0000028851186
+loss_val 0.0000028851186
+elapsed 24.753376
+Iteration 6, new_neuron_num: 104
+Epoch 0: loss = 0.0000028847485
+Epoch 50: loss = 0.00026267063
+Epoch 100: loss = 0.000021804639
+Epoch 150: loss = 0.0000031264995
+Epoch 200: loss = 0.0000028883803
+Epoch 250: loss = 0.0000028842621
+Epoch 300: loss = 0.0000028844415
+Epoch 350: loss = 0.0000028844627
+Epoch 400: loss = 0.0000028844233
+loss_val 0.0000028844233
+elapsed 33.37658
+Iteration 7, new_neuron_num: 103
+Epoch 0: loss = 0.0000028843629
+Epoch 50: loss = 0.00029348687
+Epoch 100: loss = 0.000019406636
+Epoch 150: loss = 0.0000031378067
+Epoch 200: loss = 0.0000028856496
+slurmstepd: error: *** JOB 39651632 ON ng31003 CANCELLED AT 2025-01-23T15:03:28 ***

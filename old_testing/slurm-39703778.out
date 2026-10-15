@@ -1,0 +1,489 @@
+
+Lmod is automatically replacing "intel/2020.1.217" with "gcc/9.3.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) mii/1.1.2
+
+The following have been reloaded with a version change:
+  1) StdEnv/2023 => StdEnv/2020
+  2) blis/0.9.0 => blis/0.8.1
+  3) flexiblas/3.3.1 => flexiblas/3.0.4
+  4) gcc/12.3 => gcc/9.3.0
+  5) gcccore/.12.3 => gcccore/.9.3.0
+  6) gentoo/2023 => gentoo/2020
+  7) libfabric/1.18.0 => libfabric/1.10.1
+  8) openmpi/4.1.5 => openmpi/4.0.3
+  9) ucx/1.14.1 => ucx/1.8.0
+
+Sat Jan 25 04:43:11 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.144.03             Driver Version: 550.144.03     CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A100-SXM4-40GB          Off |   00000000:81:00.0 Off |                    0 |
+| N/A   37C    P0             50W /  400W |       1MiB /  40960MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+   Compiling autocfg v1.1.0
+   Compiling proc-macro2 v1.0.66
+   Compiling unicode-ident v1.0.11
+   Compiling quote v1.0.32
+   Compiling thiserror v1.0.44
+   Compiling syn v2.0.28
+   Compiling thiserror-impl v1.0.44
+   Compiling cfg-if v1.0.0
+   Compiling libm v0.2.7
+   Compiling num-traits v0.2.16
+   Compiling ucd-trie v0.1.6
+   Compiling pest v2.7.2
+   Compiling libc v0.2.147
+   Compiling num-integer v0.1.45
+   Compiling serde v1.0.183
+   Compiling num-bigint v0.4.3
+   Compiling crossbeam-utils v0.8.16
+   Compiling memoffset v0.9.0
+   Compiling serde_derive v1.0.183
+   Compiling num-complex v0.4.3
+   Compiling semver-parser v0.10.2
+   Compiling crossbeam-epoch v0.9.15
+   Compiling crc32fast v1.3.2
+   Compiling once_cell v1.18.0
+   Compiling serde_json v1.0.104
+   Compiling pest_meta v2.7.2
+   Compiling semver v0.11.0
+   Compiling num-iter v0.1.43
+   Compiling matrixmultiply v0.3.7
+   Compiling num-rational v0.4.1
+   Compiling itoa v1.0.9
+   Compiling scopeguard v1.2.0
+   Compiling ryu v1.0.15
+   Compiling adler v1.0.2
+   Compiling miniz_oxide v0.7.1
+   Compiling rustc_version v0.3.3
+   Compiling pest_generator v2.7.2
+   Compiling getrandom v0.2.10
+   Compiling rawpointer v0.2.1
+   Compiling rayon-core v1.11.0
+   Compiling rand_core v0.6.4
+   Compiling pest_derive v2.7.2
+   Compiling flate2 v1.0.26
+   Compiling arrayfire_fork v3.8.1
+   Compiling crossbeam-deque v0.8.3
+   Compiling crossbeam-channel v0.5.8
+   Compiling num_cpus v1.16.0
+   Compiling ppv-lite86 v0.2.17
+   Compiling byteorder v1.4.3
+   Compiling zip v0.5.13
+   Compiling rand_chacha v0.3.1
+   Compiling num v0.4.1
+   Compiling py_literal v0.4.0
+   Compiling ndarray v0.15.6
+   Compiling half v2.3.1
+   Compiling either v1.9.0
+   Compiling lazy_static v1.4.0
+   Compiling match_cfg v0.1.0
+   Compiling hostname v0.3.1
+   Compiling rayon v1.7.0
+   Compiling ndarray-npy v0.8.1
+   Compiling rand v0.8.5
+   Compiling nohash-hasher v0.2.0
+   Compiling raybnn v0.1.5 (/lustre07/scratch/yilind/raybnn)
+    Finished release [optimized] target(s) in 2m 09s
+     Running `target/release/examples/figure4_raybnn_sp`
+Creating Network
+Load Dataset
+Iteration 0, new_neuron_num: 33
+loss_val 0.06286289
+elapsed 21.020437
+Iteration 1, new_neuron_num: 50
+loss_val 0.0028281508
+elapsed 5.996161
+Iteration 2, new_neuron_num: 50
+loss_val 0.000002868988
+elapsed 5.2342916
+Iteration 3, new_neuron_num: 51
+loss_val 0.0000028694055
+elapsed 6.5904455
+Iteration 4, new_neuron_num: 51
+loss_val 0.0000029007413
+elapsed 10.75602
+Iteration 5, new_neuron_num: 50
+loss_val 0.0000028724148
+elapsed 10.372042
+Iteration 6, new_neuron_num: 51
+loss_val 0.0000028716427
+elapsed 27.215754
+Iteration 7, new_neuron_num: 51
+loss_val 0.0000029006285
+elapsed 17.499208
+Iteration 8, new_neuron_num: 53
+loss_val 0.0000028850907
+elapsed 14.864886
+Iteration 9, new_neuron_num: 390
+loss_val 0.0000028716238
+elapsed 16.330862
+Iteration 10, new_neuron_num: 472
+loss_val 0.000002927803
+elapsed 24.646877
+Creating Network
+Load Dataset
+Iteration 0, new_neuron_num: 33
+loss_val 0.008218804
+elapsed 8.637094
+Iteration 1, new_neuron_num: 51
+loss_val 0.008549163
+elapsed 10.764057
+Iteration 2, new_neuron_num: 52
+loss_val 0.010746681
+elapsed 13.082913
+Iteration 3, new_neuron_num: 53
+loss_val 0.0000028745712
+elapsed 6.6963286
+Iteration 4, new_neuron_num: 52
+loss_val 0.0000028737948
+elapsed 8.59748
+Iteration 5, new_neuron_num: 52
+loss_val 0.000002871204
+elapsed 10.370514
+Iteration 6, new_neuron_num: 52
+loss_val 0.0000028707104
+elapsed 12.107922
+Iteration 7, new_neuron_num: 53
+loss_val 0.0000028708162
+elapsed 14.078036
+Iteration 8, new_neuron_num: 51
+loss_val 0.0000029647204
+elapsed 30.419043
+Iteration 9, new_neuron_num: 222
+loss_val 0.0000029365112
+elapsed 20.946594
+Iteration 10, new_neuron_num: 325
+loss_val 0.0000029304047
+elapsed 27.917643
+Creating Network
+Load Dataset
+Iteration 0, new_neuron_num: 32
+loss_val 0.043763313
+elapsed 4.3420014
+Iteration 1, new_neuron_num: 50
+loss_val 0.008108922
+elapsed 10.786511
+Iteration 2, new_neuron_num: 52
+loss_val 0.00009198796
+elapsed 13.127816
+Iteration 3, new_neuron_num: 52
+loss_val 0.000002870674
+elapsed 6.7087226
+Iteration 4, new_neuron_num: 53
+loss_val 0.000002872367
+elapsed 8.633454
+Iteration 5, new_neuron_num: 51
+loss_val 0.0000028722743
+elapsed 10.229792
+Iteration 6, new_neuron_num: 52
+loss_val 0.0000028707498
+elapsed 11.877074
+Iteration 7, new_neuron_num: 51
+loss_val 0.0000028710417
+elapsed 14.084688
+Iteration 8, new_neuron_num: 51
+loss_val 0.00000288024
+elapsed 14.920923
+Iteration 9, new_neuron_num: 273
+loss_val 0.0000028971247
+elapsed 16.290667
+Iteration 10, new_neuron_num: 513
+loss_val 0.0000029378775
+elapsed 16.824314
+Creating Network
+Load Dataset
+Iteration 0, new_neuron_num: 35
+loss_val 0.019197438
+elapsed 8.570614
+Iteration 1, new_neuron_num: 50
+loss_val 0.0021903603
+elapsed 10.962526
+Iteration 2, new_neuron_num: 51
+loss_val 0.0000028689917
+elapsed 5.320137
+Iteration 3, new_neuron_num: 52
+loss_val 0.0000028717461
+elapsed 6.6940746
+Iteration 4, new_neuron_num: 52
+loss_val 0.0000028705858
+elapsed 8.626247
+Iteration 5, new_neuron_num: 51
+loss_val 0.0000028715833
+elapsed 10.321332
+Iteration 6, new_neuron_num: 51
+loss_val 0.0000028707573
+elapsed 11.789109
+Iteration 7, new_neuron_num: 50
+loss_val 0.0000028716013
+elapsed 13.557201
+Iteration 8, new_neuron_num: 53
+loss_val 0.000003009732
+elapsed 27.59116
+Iteration 9, new_neuron_num: 161
+loss_val 0.0000029708276
+elapsed 28.700521
+Iteration 10, new_neuron_num: 411
+loss_val 0.0000029116377
+elapsed 16.853151
+Creating Network
+Load Dataset
+Iteration 0, new_neuron_num: 33
+loss_val 0.0009342849
+elapsed 8.617337
+Iteration 1, new_neuron_num: 51
+loss_val 0.011543602
+elapsed 7.1276383
+Iteration 2, new_neuron_num: 51
+loss_val 0.094102
+elapsed 7.9156294
+Iteration 3, new_neuron_num: 53
+loss_val 0.000002870613
+elapsed 6.792148
+Iteration 4, new_neuron_num: 51
+loss_val 0.0000028709044
+elapsed 8.651093
+Iteration 5, new_neuron_num: 51
+loss_val 0.0000028712857
+elapsed 10.358861
+Iteration 6, new_neuron_num: 51
+loss_val 0.0000028710795
+elapsed 12.046034
+Iteration 7, new_neuron_num: 52
+loss_val 0.0000028701934
+elapsed 14.403202
+Iteration 8, new_neuron_num: 51
+loss_val 0.000002900893
+elapsed 15.272547
+Iteration 9, new_neuron_num: 328
+loss_val 0.0000029128094
+elapsed 16.584692
+Iteration 10, new_neuron_num: 392
+loss_val 0.0000029794226
+elapsed 23.490454
+Creating Network
+Load Dataset
+Iteration 0, new_neuron_num: 35
+loss_val 0.0029928435
+elapsed 8.707377
+Iteration 1, new_neuron_num: 51
+loss_val 0.005241307
+elapsed 10.953454
+Iteration 2, new_neuron_num: 51
+loss_val 0.000002868077
+elapsed 5.2665024
+Iteration 3, new_neuron_num: 52
+loss_val 0.0000028704399
+elapsed 6.7533345
+Iteration 4, new_neuron_num: 51
+loss_val 0.0000028717068
+elapsed 8.552876
+Iteration 5, new_neuron_num: 51
+loss_val 0.0000028709603
+elapsed 10.362075
+Iteration 6, new_neuron_num: 51
+loss_val 0.000002869332
+elapsed 12.058082
+Iteration 7, new_neuron_num: 52
+loss_val 0.000002900735
+elapsed 17.898537
+Iteration 8, new_neuron_num: 51
+loss_val 0.000002918252
+elapsed 21.046942
+Iteration 9, new_neuron_num: 258
+loss_val 0.0000028752052
+elapsed 16.641651
+Iteration 10, new_neuron_num: 285
+loss_val 0.0000029266096
+elapsed 25.758602
+Creating Network
+Load Dataset
+Iteration 0, new_neuron_num: 34
+loss_val 0.007502223
+elapsed 8.57382
+Iteration 1, new_neuron_num: 50
+loss_val 0.0066798767
+elapsed 10.871878
+Iteration 2, new_neuron_num: 51
+loss_val 0.0007527537
+elapsed 13.126086
+Iteration 3, new_neuron_num: 51
+loss_val 0.0000028689985
+elapsed 6.8108234
+Iteration 4, new_neuron_num: 53
+loss_val 0.0000028693237
+elapsed 8.623775
+Iteration 5, new_neuron_num: 52
+loss_val 0.000002901452
+elapsed 12.706106
+Iteration 6, new_neuron_num: 51
+loss_val 0.0000028721724
+elapsed 12.066101
+Iteration 7, new_neuron_num: 53
+loss_val 0.000002871374
+elapsed 14.118446
+Iteration 8, new_neuron_num: 51
+loss_val 0.0000029390646
+elapsed 14.871066
+Iteration 9, new_neuron_num: 294
+loss_val 0.0000029824955
+elapsed 20.431547
+Iteration 10, new_neuron_num: 461
+loss_val 0.000002904766
+elapsed 20.985605
+Creating Network
+Load Dataset
+Iteration 0, new_neuron_num: 34
+loss_val 0.02808833
+elapsed 5.6358724
+Iteration 1, new_neuron_num: 51
+loss_val 0.014019845
+elapsed 10.9250765
+Iteration 2, new_neuron_num: 50
+loss_val 0.05316455
+elapsed 12.593226
+Iteration 3, new_neuron_num: 52
+loss_val 10846.366
+elapsed 9.349275
+Iteration 4, new_neuron_num: 51
+loss_val 9433.127
+elapsed 10.898683
+Iteration 5, new_neuron_num: 50
+loss_val 8114.186
+elapsed 12.82663
+Iteration 6, new_neuron_num: 51
+loss_val 6797.5576
+elapsed 15.08431
+Iteration 7, new_neuron_num: 51
+loss_val 5176.5127
+elapsed 26.482637
+Iteration 8, new_neuron_num: 51
+loss_val 3380.2864
+elapsed 31.772203
+Iteration 9, new_neuron_num: 245
+loss_val 1475.914
+elapsed 41.035877
+Iteration 10, new_neuron_num: 383
+loss_val 14795.483
+elapsed 42.410515
+Creating Network
+Load Dataset
+Iteration 0, new_neuron_num: 34
+loss_val 0.009179367
+elapsed 8.613113
+Iteration 1, new_neuron_num: 50
+loss_val 0.0020657864
+elapsed 10.941026
+Iteration 2, new_neuron_num: 51
+loss_val 0.021097632
+elapsed 13.239767
+Iteration 3, new_neuron_num: 51
+loss_val 0.0000028711572
+elapsed 6.7289166
+Iteration 4, new_neuron_num: 51
+loss_val 0.000002873126
+elapsed 8.550102
+Iteration 5, new_neuron_num: 51
+loss_val 0.000002869822
+elapsed 10.401601
+Iteration 6, new_neuron_num: 51
+loss_val 0.0000028714032
+elapsed 12.158686
+Iteration 7, new_neuron_num: 50
+loss_val 0.0000028709276
+elapsed 14.210954
+Iteration 8, new_neuron_num: 51
+loss_val 0.0000029099208
+elapsed 23.004208
+Iteration 9, new_neuron_num: 154
+loss_val 0.0000029048297
+elapsed 20.989285
+Iteration 10, new_neuron_num: 362
+loss_val 0.0000029296514
+elapsed 17.34021
+Creating Network
+Load Dataset
+Iteration 0, new_neuron_num: 32
+loss_val 0.0051229196
+elapsed 8.6559305
+Iteration 1, new_neuron_num: 51
+loss_val 0.001371371
+elapsed 10.8671875
+Iteration 2, new_neuron_num: 51
+loss_val 53670.703
+elapsed 13.207726
+Iteration 3, new_neuron_num: 51
+loss_val 25810.094
+elapsed 16.890087
+Iteration 4, new_neuron_num: 52
+loss_val 0.0044505564
+elapsed 8.603228
+Iteration 5, new_neuron_num: 52
+loss_val 0.000002873431
+elapsed 10.272291
+Iteration 6, new_neuron_num: 52
+loss_val 0.0000028710017
+elapsed 12.074825
+Iteration 7, new_neuron_num: 51
+loss_val 0.0000028700879
+elapsed 13.787909
+Iteration 8, new_neuron_num: 52
+loss_val 0.0000029412226
+elapsed 14.910526
+Iteration 9, new_neuron_num: 274
+loss_val 0.0000029056512
+elapsed 20.397146
+Iteration 10, new_neuron_num: 271
+loss_val 0.0000029371083
+elapsed 18.838154
+Creating Network
+Load Dataset
+Iteration 0, new_neuron_num: 33
+loss_val 0.013199315
+elapsed 8.599357
+Iteration 1, new_neuron_num: 50
+loss_val 0.00000399254
+elapsed 10.842152
+Iteration 2, new_neuron_num: 51
+loss_val 0.000002872361
+elapsed 5.330723
+Iteration 3, new_neuron_num: 50
+loss_val 0.0000029021096
+elapsed 8.486454
+Iteration 4, new_neuron_num: 52
+loss_val 0.0000028711463
+elapsed 8.656664
+Iteration 5, new_neuron_num: 52
+loss_val 0.0000028710524
+elapsed 10.401608
+Iteration 6, new_neuron_num: 51
+loss_val 0.000002900667
+elapsed 14.982879
+Iteration 7, new_neuron_num: 52
+loss_val 0.0000028707893
+elapsed 14.248188
+Iteration 8, new_neuron_num: 51
+loss_val 0.0000029233586
+elapsed 15.410157
+Iteration 9, new_neuron_num: 137
+loss_val 0.0000029324676
+elapsed 18.86578
+Iteration 10, new_neuron_num: 465
+loss_val 0.0000029010373
+elapsed 21.416471

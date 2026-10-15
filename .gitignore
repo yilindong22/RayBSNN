@@ -1,0 +1,55 @@
+# ============================
+# Rust compilation
+# ============================
+target/
+**/target/
+
+# ============================
+# Large datasets
+# ============================
+test_data/
+data/
+datasets/
+
+# ============================
+# Python
+# ============================
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# ============================
+# Training outputs
+# ============================
+*.pt
+*.pth
+*.ckpt
+*.log
+
+# ============================
+# Temporary files
+# ============================
+*.tmp
+*.zip
+.Rhistory
+.DS_Store
+
+# ============================
+# Generated experiment data
+# ============================
+train_X_dump.txt
+target_vs_prediction784.csv
+
+# ============================
+# Sensitive files
+# ============================
+.env
+.env.*
+
+# ArrayFire generated GPU kernel cache
+arrayfire/
+
+# Large EEG experiment directory
+python_verify/EEG/Deep4Net_RayBNN/
